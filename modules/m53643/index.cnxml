@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53643</md:content-id>
   <md:title>Volumes of Revolution: Cylindrical Shells</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract><list>
 <item>Calculate the volume of a solid of revolution by using the method of cylindrical shells.</item>
 <item>Compare the different methods for calculating a volume of revolution.</item>
 </list></md:abstract>
@@ -56,7 +56,7 @@
 <equation id="fs-id1167793624597" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>≈</m:mo><m:munderover><m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mo>*</m:mo></m:msubsup><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mo>*</m:mo></m:msubsup><m:mo stretchy="false">)</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1167794072750">Here we have another Riemann sum, this time for the function <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>x</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> Taking the limit as <m:math><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math> gives us</para>
 <equation id="fs-id1167794040741" class="unnumbered"><label/><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:munder><m:munderover><m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mo>*</m:mo></m:msubsup><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msubsup><m:mi>x</m:mi><m:mi>i</m:mi><m:mo>*</m:mo></m:msubsup><m:mo stretchy="false">)</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mi>a</m:mi><m:mi>b</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>x</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1167794126755">This leads to the following rule for the <term id="term-00001">method of cylindrical shells.</term></para>
+<para id="fs-id1167794126755">This leads to the following rule for the <term>method of cylindrical shells.</term></para>
 <note id="fs-id1167793655300">
 <title>Rule: The Method of Cylindrical Shells</title>
 <para id="fs-id1167793929838">Let <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> be continuous and nonnegative. Define <m:math><m:mi>R</m:mi></m:math> as the region bounded above by the graph of <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> below by the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>,</m:mo></m:mrow></m:math> on the left by the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> and on the right by the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> Then the volume of the solid of revolution formed by revolving <m:math><m:mi>R</m:mi></m:math> around the <emphasis effect="italics">y</emphasis>-axis is given by</para>
@@ -315,26 +315,21 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </section>
 <section id="fs-id1167794011551" class="key-equations">
 <title>Key Equations</title>
-<table id="eip-506" summary="." class="unnumbered unstyled">
-<tgroup cols="2"><tbody>
-  <row>
-    <entry><emphasis effect="bold">Method of Cylindrical Shells</emphasis></entry>
-    <entry><m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mi>a</m:mi><m:mi>b</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>x</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math></entry>
-  </row>
-</tbody>
-</tgroup>
-</table>
+<list id="fs-id1167794011558" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Method of Cylindrical Shells</emphasis><newline/>
+<m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo stretchy="false">∫</m:mo><m:mi>a</m:mi><m:mi>b</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>x</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math></item>
+</list>
 </section>
 <section id="fs-id1167794011626" class="section-exercises">
-<para id="fs-id1167793524756">For the following exercises, find the volume generated when the region between the two curves is rotated around the given axis. Use both the shell method and the washer method. Use technology to graph the functions and draw a typical slice by hand.</para>
+<para id="fs-id1167793524756">For the following exercise, find the volume generated when the region between the two curves is rotated around the given axis. Use both the shell method and the washer method. Use technology to graph the functions and draw a typical slice by hand.</para>
 <exercise id="fs-id1167793524762">
 <problem id="fs-id1167793524764">
-<para id="fs-id1167793524766"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793524766"><emphasis effect="bold">[T]</emphasis> Over the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793524842">
 <problem id="fs-id1167793524845">
-<para id="fs-id1167793524847"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793524847"><emphasis effect="bold">[T]</emphasis> Under the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793957877"><para id="fs-id1167793957878"><newline/>
 <media id="fs-id1167793957881" alt="This figure is a graph in the first quadrant. It is the line y=3x. Under the line and above the x-axis there is a shaded region. The region is bounded to the right at x=3.">
@@ -345,12 +340,12 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793957909">
 <problem id="fs-id1167793957911">
-<para id="fs-id1167793957913"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793957913"><emphasis effect="bold">[T]</emphasis> Over the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167794043039">
 <problem id="fs-id1167794043041">
-<para id="fs-id1167794043043"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167794043043"><emphasis effect="bold">[T]</emphasis> Under the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793975942"><para id="fs-id1167793975943"><newline/>
 <media id="fs-id1167793975946" alt="This figure is a graph in the first quadrant. It is the line y=3x. Under the line and above the x-axis there is a shaded region. The region is bounded to the right at x=3.">
@@ -361,12 +356,12 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793975974">
 <problem id="fs-id1167793975976">
-<para id="fs-id1167793975978"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793975978"><emphasis effect="bold">[T]</emphasis> Under the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793609848">
 <problem id="fs-id1167793609850">
-<para id="fs-id1167793609852"><emphasis effect="bold">[T]</emphasis> Bounded by the curves <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793609852"><emphasis effect="bold">[T]</emphasis> Under the curve of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793450107"><para id="fs-id1167793450108"><newline/>
 <media id="fs-id1167793450111" alt="This figure is a graph in the first quadrant. It is the increasing curve y=2x^3. Under the curve and above the x-axis there is a shaded region. The region is bounded to the right at x=2.">
@@ -444,12 +439,12 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 <para id="fs-id1167793569055">For the following exercises, use shells to find the volume generated by rotating the regions between the given curve and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 <exercise id="fs-id1167793566870">
 <problem id="fs-id1167793566872">
-<para id="fs-id1167793566874"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and the <emphasis effect="italics">x</emphasis>-axis</para>
+<para id="fs-id1167793566874"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793566941">
 <problem id="fs-id1167793566943">
-<para id="fs-id1167793566946"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and the <emphasis effect="italics">x</emphasis>-axis</para>
+<para id="fs-id1167793566946"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793315969">
 <para id="fs-id1167793315971"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>32</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
@@ -457,15 +452,15 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793315990">
 <problem id="fs-id1167793315992">
-<para id="fs-id1167793315994"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:math> and the <emphasis effect="italics">x</emphasis>-axis</para>
+<para id="fs-id1167793315994"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167794041952">
 <problem id="fs-id1167794041954">
-<para id="fs-id1167794041956"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:math> and the <emphasis effect="italics">x</emphasis>-axis</para>
+<para id="fs-id1167794041956"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>e</m:mi></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167794042001">
-<para id="fs-id1167794042003"><m:math><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:math></para>
+<para id="fs-id1167794042003"><m:math><m:mrow><m:mi>π</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>e</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167794042027">
@@ -475,38 +470,36 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793511887">
 <problem id="fs-id1167793511889">
-<para id="fs-id1167793511891"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>y</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math>  and the <emphasis effect="italics">y</emphasis>-axis</para>
+<para id="fs-id1167793511891"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>y</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167794095674">
-<para id="fs-id1167794095677"><m:math><m:mn>48</m:mn><m:mi>π</m:mi></m:math></para>
+<para id="fs-id1167794095677"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>28</m:mn><m:mi>π</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167794095695">
 <problem id="fs-id1167794095697">
-<para id="fs-id1167794095699"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>π</m:mi></m:mrow>
-</m:math></para>
+<para id="fs-id1167794095699"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>π</m:mi></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167794095754">
 <problem id="fs-id1167794095756">
-<para id="fs-id1167793545161">
-<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167793545161"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793545211">
-<para id="fs-id1167793545213"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>113</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1167793545213"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>−84</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167793545231">
 <problem id="fs-id1167793545233">
-<para id="fs-id1167793545235"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>y</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math>  and the <emphasis effect="italics">x</emphasis>-axis</para>
+<para id="fs-id1167793545235"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:msup><m:mi>e</m:mi><m:mi>y</m:mi></m:msup><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793609310">
 <problem id="fs-id1167793609312">
-<para id="fs-id1167793609314"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>27</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mroot><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+<para id="fs-id1167793609314"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:msup><m:mi>e</m:mi><m:mi>y</m:mi></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>π</m:mi></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793609359">
-<para id="fs-id1167793609361"><m:math><m:mfrac><m:mrow><m:mn>512</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>7</m:mn></m:mrow></m:mfrac></m:math></para>
+<para id="fs-id1167793609361"><m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mi>e</m:mi><m:mi>π</m:mi></m:msup><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <para id="fs-id1167793472781">For the following exercises, find the volume generated when the region between the curves is rotated around the given axis.</para>
@@ -517,10 +510,10 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793750818">
 <problem id="fs-id1167793750820">
-<para id="fs-id1167793750822"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793750822"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793750872">
-<para id="fs-id1167793750874"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>96</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
+<para id="fs-id1167793750874"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>64</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167793750892">
@@ -530,7 +523,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167794052647">
 <problem id="fs-id1167794052649">
-<para id="fs-id1167794052651"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> rotated around the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167794052651"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> rotated around the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167794052700">
 <para id="fs-id1167794052702"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>28</m:mn><m:mi>π</m:mi></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
@@ -538,7 +531,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793395041">
 <problem id="fs-id1167793395043">
-<para id="fs-id1167793395045"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> rotated around the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793395045"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793395118">
@@ -556,10 +549,10 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793776722">
 <problem id="fs-id1167793776725">
-<para id="fs-id1167793776727"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793776727"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793776788">
-<para id="fs-id1167793776790"><m:math><m:mi mathvariant="normal">π</m:mi><m:mfenced><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:mo>/</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mn>11</m:mn><m:mn>10</m:mn></m:mfrac></m:mrow></m:mfenced><m:mo>=</m:mo><m:mfrac><m:mi mathvariant="normal">π</m:mi><m:mn>10</m:mn></m:mfrac><m:mfenced><m:mrow><m:mn>12</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:mo>/</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:mn>11</m:mn></m:mrow></m:mfenced><m:mo>≈</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5286</m:mn></m:math> units<sup>3</sup></para>
+<para id="fs-id1167793776790"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>52</m:mn><m:mi>π</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167793776809">
@@ -583,7 +576,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </exercise>
 <exercise id="fs-id1167793250598">
 <problem id="fs-id1167793250600">
-<para id="fs-id1167793250602"><emphasis effect="bold">[T]</emphasis> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math> This exercise requires advanced technique. You may use technology to perform the integration.</para>
+<para id="fs-id1167793250602"><emphasis effect="bold">[T]</emphasis> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793607805"><para id="fs-id1167793607806"><newline/>
 <media id="fs-id1167793607809" alt="This figure is a graph. On the graph are two curves, y=cos(pi times x) and y=sin(pi times x). They are periodic curves resembling waves. The curves intersect in the first quadrant and also the fourth quadrant. The region between the two points of intersection is shaded.">
@@ -641,7 +634,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </solution>
 </exercise>
 <para id="fs-id1167793590037">For the following exercises, use the method of shells to approximate the volumes of some common objects, which are pictured in accompanying figures.</para>
-<exercise id="fs-id1167793590042" class="material-set-2">
+<exercise id="fs-id1167793590042">
 <problem id="fs-id1167793590044">
 <para id="fs-id1167793590046">Use the method of shells to find the volume of a sphere of radius <m:math><m:mi>r</m:mi><m:mo>.</m:mo></m:math></para>
 <media id="fs-id1167793590054" alt="This figure has two images. The first is a circle with radius r. The second is a basketball.">
@@ -649,7 +642,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </media>
 </problem>
 </exercise>
-<exercise id="fs-id1167793545720" class="material-set-2">
+<exercise id="fs-id1167793545720">
 <problem id="fs-id1167793545722">
 <para id="fs-id1167793545725">Use the method of shells to find the volume of a cone with radius <m:math><m:mi>r</m:mi></m:math> and height <m:math><m:mi>h</m:mi><m:mo>.</m:mo></m:math></para>
 <media id="fs-id1167793545737" alt="This figure has two images. The first is an upside-down cone with radius r and height h. The second is an ice cream cone.">
@@ -660,15 +653,15 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 <para id="fs-id1167793545754"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
-<exercise id="fs-id1167793545778" class="material-set-2">
+<exercise id="fs-id1167793545778">
 <problem id="fs-id1167793545780">
-<para id="fs-id1167793545782">Use the method of shells to find the volume of an ellipsoid <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793545782">Use the method of shells to find the volume of an ellipse <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> rotated around the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 <media id="fs-id1167794091052" alt="This figure has two images. The first is an ellipse with a the horizontal distance from the center to the edge and b the vertical distance from the center to the top edge. The second is a watermelon.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_06_03_219.jpg"/>
 </media>
 </problem>
 </exercise>
-<exercise id="fs-id1167794091090" class="material-set-2">
+<exercise id="fs-id1167794091090">
 <problem id="fs-id1167794091092">
 <para id="fs-id1167794091094">Use the method of shells to find the volume of a cylinder with radius <m:math><m:mi>r</m:mi></m:math> and height <m:math><m:mi>h</m:mi><m:mo>.</m:mo></m:math></para>
 <media id="fs-id1167794091107" alt="This figure has two images. The first is a cylinder with radius r and height h. The second is a cylindrical candle.">
@@ -679,7 +672,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 <para id="fs-id1167793257563"><m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math> units<sup>3</sup></para>
 </solution>
 </exercise>
-<exercise id="fs-id1167793257582" class="material-set-2">
+<exercise id="fs-id1167793257582">
 <problem id="fs-id1167793257584">
 <para id="fs-id1167793257586">Use the method of shells to find the volume of the donut created when the circle <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> is rotated around the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
 <media id="fs-id1167793257621" alt="This figure has two images. The first has two ellipses, one inside of the other. The radius of the path between them is 2 units. The second is a doughnut.">
@@ -687,9 +680,9 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </media>
 </problem>
 </exercise>
-<exercise id="fs-id1167793257654" class="material-set-2">
+<exercise id="fs-id1167793257654">
 <problem id="fs-id1167793257656">
-<para id="fs-id1167793266665">Consider he region enclosed by the graphs of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> What is the volume of the solid generated when this region is rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Assume that the function is defined over the interval <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793266665">Consider the region enclosed by the graphs of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> What is the volume of the solid generated when this region is rotated around the <m:math><m:mrow><m:mi>y</m:mi><m:mtext>-axis</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Assume that the function is defined over the interval <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167793266770">
 <para id="fs-id1167793385692"><m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> units<sup>3</sup></para>
@@ -701,7 +694,7 @@ Looking at the region, it would be problematic to define a horizontal rectangle;
 </problem>
 </exercise>
 </section>
-   </content>
+</content>
 <glossary>
 <definition id="fs-id1167793417112">
 <term>method of cylindrical shells</term>
