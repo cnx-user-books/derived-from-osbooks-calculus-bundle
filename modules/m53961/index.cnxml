@@ -16,5 +16,5 @@
 </figure>
 <para id="fs-id1167794325378">In this chapter we extend the concept of a definite integral of a single variable to double and triple integrals of functions of two and three variables, respectively. We examine applications involving integration to compute volumes, masses, and centroids of more general regions. We will also see how the use of other coordinate systems (such as polar, cylindrical, and spherical coordinates) makes it simpler to compute multiple integrals over some types of regions and functions. As an example, we will use polar coordinates to find the volume of structures such as l’Hemisfèric. (See <link document="m53967" target-id="fs-id1167793926329"/>.)</para>
 <para id="fs-id1167793240561">In the preceding chapter, we discussed differential calculus with multiple independent variables. Now we examine integral calculus in multiple dimensions. Just as a partial derivative allows us to differentiate a function with respect to one variable while holding the other variables constant, we will see that an iterated integral allows us to integrate a function with respect to one variable while holding the other variables constant.</para>
- </content>
+</content>
 </document>
