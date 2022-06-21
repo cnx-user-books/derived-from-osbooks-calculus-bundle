@@ -1,0 +1,94 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="preface">
+
+<title>Preface to TC Calculus 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63294</md:content-id>
+  <md:title>Preface to TC Calculus 1</md:title>
+  <md:abstract>Calculus 1 text adapted from "Calculus Volume 1" for Texarkana College using the THECB ACGM.</md:abstract>
+  <md:uuid>a3e6f620-f61e-4a78-8d73-8c21223a8f9c</md:uuid>
+</metadata>
+
+<content><section id="fs-id3267144">
+  <title/><para id="delete_me">Welcome to <emphasis effect="italics">TC Calculus 1</emphasis>. This textbook has been created from <emphasis effect="italics">Calculus Volume 1</emphasis>, an OpenStax resource, with several goals in mind: accessibility, cost effectiveness, and student engagement. This textbook offers a strong foundation in calculus in an accessible format.</para><section id="eip-43"><title>About OpenStax</title><para id="eip-320">
+OpenStax is a non-profit organization committed to improving student access to quality learning materials. Our free textbooks go through a rigorous editorial publishing process. Our texts are developed and peer-reviewed by educators to ensure they are readable, accurate, and meet the scope and sequence requirements of today’s college courses. Unlike traditional textbooks, OpenStax resources live online and are owned by the community of educators using them. Through our partnerships with companies and foundations committed to reducing costs for students, OpenStax is working to improve access to higher education for all. OpenStax is an initiative of Rice University and is made possible through the generous support of several philanthropic foundations. Since our launch in 2012 our texts have been used by millions of learners online and thousands of institutions worldwide.
+</para></section><section id="eip-717"><title>About <emphasis effect="italics">TC Calculus 1</emphasis></title><para id="eip-35"><emphasis effect="italics">TC Calculus 1</emphasis> is the first of three textbooks designed for the three-semester calculus course at Texarkana College. For many students, this course provides the foundation to a career in mathematics, science, or engineering. As such, this textbook provides an important opportunity for students to learn the core concepts of calculus and understand how those concepts apply to their lives and the world around them. The text has been developed to meet the scope and sequence as set forth by the Texas Higher Education Coordinating Board in the Academic Course Guide Manual.
+</para><section id="eip-576"><title>Coverage and Scope</title><para id="eip-21"><emphasis effect="italics">TC Calculus 1</emphasis> makes calculus interesting and accessible to students while maintaining the mathematical rigor inherent in the subject. The content of the three volumes of <emphasis effect="italics">TC Calculus</emphasis> have been arranged to provide a logical progression from fundamental to more advanced concepts, building upon what students have already learned and emphasizing connections between topics and between theory and applications. The goal of each section is to enable students not just to recognize concepts, but work with them in ways that will be useful in later courses and future careers. 
+</para><list id="eip-939"><title><emphasis effect="bold">TC Calculus 1</emphasis></title><item>Chapter 1: Functions and Graphs</item>
+<item>Chapter 2: Limits</item>
+<item>Chapter 3: Derivative Fundamentals</item>
+<item>Chapter 4: More Derivatives</item>
+<item>Chapter 5: Parametric Equations and Conics</item>
+<item>Chapter 6: Fundamental Applications of Derivatives</item>
+<item>Chapter 7: More Applications of Derivatives</item>
+<item>Chapter 8: Integration</item></list><list id="eip-341"><title><emphasis effect="bold">TC Calculus 2</emphasis></title><item>Chapter 1: Integration</item>
+<item>Chapter 2: Fundamental Applications of Integration</item>
+<item>Chapter 3: Further Applications of Integration</item>
+<item>Chapter 4: Polar Coordinates</item>
+<item>Chapter 5: Techniques of Integration</item>
+<item>Chapter 6: Introduction to Differential Equations</item>
+<item>Chapter 7: Sequences and Series</item>
+<item>Chapter 8: Power Series</item>
+</list><list id="eip-161"><title><emphasis effect="bold">TC Calculus 3</emphasis></title><item>Chapter 1: Parametric Equations and Polar Coordinates</item>
+<item>Chapter 2: Vectors in Space</item>
+<item>Chapter 3: Vector-Valued Functions</item>
+<item>Chapter 4: Differentiation of Functions of Several Variables</item>
+<item>Chapter 5: Multiple Integration</item>
+<item>Chapter 6: Vector Calculus</item></list></section><section id="eip-56"><title>Pedagogical Foundation</title><para id="eip-377">Throughout <emphasis effect="italics">TC Calculus 1</emphasis> you will find examples and exercises that present classical ideas and techniques as well as modern applications and methods. Derivations and explanations are based on years of classroom experience on the part of long-time calculus professors, striving for a balance of clarity and rigor that has proven successful with their students. Motivational applications cover important topics in probability, biology, ecology, business, and economics, as well as areas of physics, chemistry, engineering, and computer science. <emphasis>Student Projects</emphasis> in each chapter give students opportunities to explore interesting sidelights in pure and applied mathematics, from showing that the number e is irrational, to calculating the center of mass of the Grand Canyon Skywalk or the terminal speed of a skydiver. <emphasis>Chapter Opening Applications</emphasis> pose problems that are solved later in the chapter, using the ideas covered in that chapter. Problems include the hydraulic force against the Hoover Dam, and the comparison of the relative intensity of two earthquakes. <emphasis>Definitions, Rules,</emphasis> and <emphasis>Theorems</emphasis> are highlighted throughout the text, including over 60 <emphasis>Proofs</emphasis> of theorems.
+</para></section><section id="eip-694"><title>Assessments That Reinforce Key Concepts </title><para id="eip-385">
+In-chapter <emphasis>Examples</emphasis> walk students through problems by posing a question, stepping out a solution, and then asking students to practice the skill with a “Checkpoint” question. The book also includes assessments at the end of each chapter so students can apply what they’ve learned through practice problems. Many exercises are marked with a <emphasis>[T]</emphasis> to indicate they are suitable for solution by technology, including calculators or Computer Algebra Systems (CAS). Answers for selected exercises are available in the <emphasis>Answer Key</emphasis> at the back of the book.
+</para></section></section><section id="eip-653"><title>About the Team that created OpenStax "Calculus"</title><section id="eip-957" class="sr-contrib-auth"><title>Senior Contributing Authors</title><para id="fs-id1169977081770">Gilbert Strang, PhD<newline/>
+Dr. Strang received his PhD from UCLA in 1959 and has been teaching mathematics at MIT ever since. His Calculus online textbook is one of eleven that he has published and is the basis from which our final product has been derived and updated for today’s student. Strang is a decorated mathematician and past Rhodes Scholar at Oxford University.
+</para><para id="eip-175">Edwin “Jed” Herman, PhD<newline/>
+Dr. Herman earned a BS in Mathematics from Harvey Mudd College in 1985, an MA in Mathematics from UCLA in 1987, and a PhD in Mathematics from the University of Oregon in 1997. He is currently a Professor at the University of Wisconsin-Stevens Point. He has more than 20 years of experience teaching college mathematics, is a student research mentor, is experienced in course development/design, and is also an avid board game designer and player. 
+</para></section><section id="fs-id1169977069259" class="contrib-auth"><title>Contributing Authors</title><list id="eip-id1165336458235" list-type="labeled-item"><item>Catherine Abbott, Keuka College</item>
+<item>Nicoleta Virginia Bila, Fayetteville State University</item>
+<item>Sheri J. Boyd, Rollins College</item>
+<item>Joyati Debnath, Winona State University</item>
+<item>Valeree Falduto, Palm Beach State College</item>
+<item>Joseph Lakey, New Mexico State University</item>
+<item>Julie Levandosky, Framingham State University</item>
+<item>David McCune, William Jewell College</item>
+<item>Michelle Merriweather, Bronxville High School</item>
+<item>Kirsten R. Messer, Colorado State University - Pueblo</item>
+<item>Alfred K. Mulzet, Florida State College at Jacksonville</item>
+<item>William Radulovich (retired), Florida State College at Jacksonville</item>
+<item>Erica M. Rutter, Arizona State University</item>
+<item>David Smith, University of the Virgin Islands</item>
+<item>Elaine A. Terry, Saint Joseph’s University</item>
+<item>David Torain, Hampton University</item></list><list id="eip-485" list-type="labeled-item"><title>Reviewers</title><item>Marwan A. Abu-Sawwa, Florida State College at Jacksonville</item>
+<item>Kenneth J. Bernard, Virginia State University</item>
+<item>John Beyers, University of Maryland </item>
+<item>Charles Buehrle, Franklin &amp; Marshall College</item>
+<item>Matthew Cathey, Wofford College</item>
+<item>Michael Cohen, Hofstra University</item>
+<item>William DeSalazar, Broward County School System</item>
+<item>Murray Eisenberg, University of Massachusetts Amherst</item>
+<item>Kristyanna Erickson, Cecil College</item>
+<item>Tiernan Fogarty, Oregon Institute of Technology</item>
+<item>David French, Tidewater Community College</item>
+<item>Marilyn Gloyer, Virginia Commonwealth University</item>
+<item>Shawna Haider, Salt Lake Community College</item>
+<item>Lance Hemlow, Raritan Valley Community College</item>
+<item>Jerry Jared, The Blue Ridge School</item>
+<item>Peter Jipsen, Chapman University</item>
+<item>David Johnson, Lehigh University</item>
+<item>M.R. Khadivi, Jackson State University</item>
+<item>Robert J. Krueger, Concordia University</item>
+<item>Tor A. Kwembe, Jackson State University</item>
+<item>Jean-Marie Magnier, Springfield Technical Community College</item>
+<item>Cheryl Chute Miller, SUNY Potsdam</item>
+<item>Bagisa Mukherjee, Penn State University, Worthington Scranton Campus</item>
+<item>Kasso Okoudjou, University of Maryland College Park</item>
+<item>Peter Olszewski, Penn State Erie, The Behrend College</item>
+<item>Steven Purtee, Valencia College</item>
+<item>Alice Ramos, Bethel College</item>
+<item>Doug Shaw, University of Northern Iowa</item>
+<item>Hussain Elalaoui-Talibi, Tuskegee University</item>
+<item>Jeffrey Taub, Maine Maritime Academy</item>
+<item>William Thistleton, SUNY Polytechnic Institute</item>
+<item>A. David Trubatch, Montclair State University</item>
+<item>Carmen Wright, Jackson State University</item>
+<item>Zhenbu Zhang, Jackson State University</item>
+</list></section></section></section></content>
+
+</document>

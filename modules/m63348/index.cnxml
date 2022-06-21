@@ -1,0 +1,18 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63348</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>3bd126c7-c4a7-4906-981f-8012cc9b0541</md:uuid>
+</metadata>
+
+<content>
+<figure id="CNX_Calc_Figure_11_00_001" class="splash"><media id="fs-id1169295678289" alt="A photo of a cross section of a seashell that spirals from big chambers to smaller and smaller ones.">
+<image mime-type="image/jpeg" src="../../media/TC_Calculus1_5_001.jpg"/>
+</media>
+
+<caption>The view of our solar system from NASA’s Voyager 1 spacecraft in late 2010 is shown here. (credit: modification of work by NASA, Flickr)</caption></figure><para id="fs-id1169295623563">Voyager 1 is the most distant man made object, at more than 17.3 billion kilometers (10.7 billion miles) from Earth. The colored lines represent the orbits of the planets; the orbits of the three closest planets (including Earth) are lost in the glare of the sun on this scale. Voyager is so far from Earth that, at this time, a radio signal from Earth takes more than 16 hours to reach the spacecraft at the speed of light.</para><para id="fs-id1169295857121">According to Kepler’s laws of planetary motion, the shape of a planet's orbit is elliptical, with the Sun at one
+focus of the ellipse. We study this idea in more detail in Conic Sections. (See <link target-id="fs-id1167794037195" document="m53846"/>.)</para><para id="fs-id1169293109757">In this chapter we also study parametric equations, which give us a convenient way to describe curves, or to study the position of a particle or object in two dimensions as a function of time. We will use parametric equations for describing many topics later in this text.</para></content>
+</document>

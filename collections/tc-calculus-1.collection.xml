@@ -1,0 +1,103 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col12172</md:content-id>
+    <md:title>TC Calculus 1</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike License</md:license>
+    <md:uuid>0c444b5a-2053-4b02-a6b4-603b68636ca2</md:uuid>
+<md:slug>tc-calculus-1</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m63294"/>
+    <col:subcollection>
+      <md:title>Functions and Graphs</md:title>
+      <col:content>
+        <col:module document="m53472"/>
+        <col:module document="m53477"/>
+        <col:module document="m53478"/>
+        <col:module document="m53479"/>
+        <col:module document="m53480"/>
+        <col:module document="m53481"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Limits</md:title>
+      <col:content>
+        <col:module document="m53483"/>
+        <col:module document="m53485"/>
+        <col:module document="m53491"/>
+        <col:module document="m53492"/>
+        <col:module document="m53489"/>
+        <col:module document="m53596"/>
+        <col:module document="m53493"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Derivative Fundamentals</md:title>
+      <col:content>
+        <col:module document="m63297"/>
+        <col:module document="m53495"/>
+        <col:module document="m53573"/>
+        <col:module document="m53575"/>
+        <col:module document="m53576"/>
+        <col:module document="m53578"/>
+        <col:module document="m53581"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>More Derivatives</md:title>
+      <col:content>
+        <col:module document="m63298"/>
+        <col:module document="m53584"/>
+        <col:module document="m53585"/>
+        <col:module document="m53604"/>
+        <col:module document="m53586"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Parametric Equations and Conics</md:title>
+      <col:content>
+        <col:module document="m63348"/>
+        <col:module document="m53834"/>
+        <col:module document="m53850"/>
+        <col:module document="m53846"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Fundamental Applications of Derivatives</md:title>
+      <col:content>
+        <col:module document="m63949"/>
+        <col:module document="m53611"/>
+        <col:module document="m53613"/>
+        <col:module document="m53614"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>More Applications of Derivatives</md:title>
+      <col:content>
+        <col:module document="m63951"/>
+        <col:module document="m53605"/>
+        <col:module document="m53612"/>
+        <col:module document="m53619"/>
+        <col:module document="m53620"/>
+        <col:module document="m53621"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Integration</md:title>
+      <col:content>
+        <col:module document="m53623"/>
+        <col:module document="m53624"/>
+        <col:module document="m53631"/>
+        <col:module document="m53632"/>
+        <col:module document="m53633"/>
+        <col:module document="m53634"/>
+        <col:module document="m53635"/>
+        <col:module document="m53636"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m54049"/>
+    <col:module document="m54050"/>
+    <col:module document="m54053"/>
+  </col:content>
+</col:collection>

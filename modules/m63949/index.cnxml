@@ -1,0 +1,17 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63949</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>97acb559-f149-4294-bee0-addec463aaf3</md:uuid>
+</metadata>
+
+<content>
+<figure id="CNX_Calc_Figure_04_00_002" class="splash"><media id="fs-id1165043013968" alt="A photo of a rocket lifting off.">
+<image mime-type="image/jpeg" src="../../media/rock_wall_800x600.jpg"/>
+</media>
+
+<caption>A garden is to be constructed adjoining a rock wall. What dimensions would maximize the size of the garden? (credit: Flickr)</caption></figure><para id="fs-id1165043057434">A rectangular garden is to be constructed using an existing rock wall as one side of the garden and wire fencing for the other three sides. Given 100 ft of wire fencing, determine the dimensions that would create a garden of maximum area. (See <link target-id="fs-id1165043352930" document="m53614"/>.)
+</para><para id="fs-id1165043065949">Making the best use of resources is one of the major uses of differentiation. In this chapter, you will investigate how derivatives can be used in optimization.</para></content>
+</document>

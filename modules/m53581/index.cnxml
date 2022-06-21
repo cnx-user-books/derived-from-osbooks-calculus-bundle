@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53581</md:content-id>
   <md:title>The Chain Rule</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract><list>
 <item>State the chain rule for the composition of two functions.</item>
 <item>Apply the chain rule together with the power rule.</item>
 <item>Apply the chain rule and the product/quotient rules correctly in combination when both are necessary.</item>
@@ -18,14 +18,14 @@
 <para id="fs-id1169738949189">We have seen the techniques for differentiating basic functions <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mi>n</m:mi></m:msup><m:mo>,</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>etc</m:mtext><m:mo>.</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as well as sums, differences, products, quotients, and constant multiples of these functions. However, these techniques do not allow us to differentiate compositions of functions, such as <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> or <m:math><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> In this section, we study the rule for finding the derivative of the composition of two or more functions.</para>
 <section id="fs-id1169738923754">
 <title>Deriving the Chain Rule</title>
-<para id="fs-id1169738824611">When we have a function that is a composition of two or more functions, we could use all of the techniques we have already learned to differentiate it. However, using all of those techniques to break down a function into simpler parts that we are able to differentiate can get cumbersome. Instead, we use the <term id="term-00001">chain rule</term>, which states that the derivative of a composite function is the derivative of the outer function evaluated at the inner function times the derivative of the inner function.</para>
+<para id="fs-id1169738824611">When we have a function that is a composition of two or more functions, we could use all of the techniques we have already learned to differentiate it. However, using all of those techniques to break down a function into simpler parts that we are able to differentiate can get cumbersome. Instead, we use the <term>chain rule</term>, which states that the derivative of a composite function is the derivative of the outer function evaluated at the inner function times the derivative of the inner function.</para>
 <para id="fs-id1169736656600">To put this rule into context, let’s take a look at an example: <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We can think of the derivative of this function with respect to <emphasis effect="italics">x</emphasis> as the rate of change of <m:math><m:mrow><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> relative to the change in <m:math><m:mi>x</m:mi><m:mo>.</m:mo></m:math> Consequently, we want to know how <m:math><m:mrow><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> changes as <m:math><m:mi>x</m:mi></m:math> changes. We can think of this event as a chain reaction: As <m:math><m:mi>x</m:mi></m:math> changes, <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> changes, which leads to a change in <m:math><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This chain reaction gives us hints as to what is involved in computing the derivative of <m:math><m:mrow><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math> First of all, a change in <m:math><m:mi>x</m:mi></m:math> forcing a change in <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> suggests that somehow the derivative of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> is involved. In addition, the change in <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> forcing a change in <m:math><m:mrow><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> suggests that the derivative of <m:math><m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> with respect to <m:math><m:mrow><m:mi>u</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> is also part of the final derivative.</para>
 <para id="fs-id1169738823074">We can take a more formal look at the derivative of <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> by setting up the limit that would give us the derivative at a specific value <m:math><m:mi>a</m:mi></m:math> in the domain of <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 <equation id="fs-id1169738941291" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169738954231">This expression does not seem particularly helpful; however, we can modify it by multiplying and dividing by the expression <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> to obtain</para>
 <equation id="fs-id1169739101346" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169738969849">From the definition of the derivative, we can see that the second factor is the derivative of <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> That is,</para>
-<equation id="fs-id1169739096283" class="unnumbered"><label/><m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:munder><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<equation id="fs-id1169739096283" class="unnumbered"><label/><m:math><m:mrow><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:munder><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169738971694">However, it might be a little more challenging to recognize that the first term is also a derivative. We can see this by letting <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> and observing that as <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mtext>:</m:mtext></m:mrow></m:math></para>
 <equation id="fs-id1169739035291" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:munder><m:mrow><m:mtext>lim</m:mtext></m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:munder><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>u</m:mi><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mfrac><m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:msub></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>).</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1169739000166">Thus, <m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo><m:mo>·</m:mo><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1169739044550">In other words, if <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Thus, if we think of <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> as the composition <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo></m:mrow></m:math> sin <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> then the derivative of <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow></m:math> is the product of the derivative of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> and the derivative of the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi></m:mrow></m:math> evaluated at the function <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> At this point, we anticipate that for <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> it is quite likely that <m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> As we determined above, this is the case for <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
@@ -40,7 +40,7 @@
 <equation id="fs-id1169739187558" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 </note>
 <note id="fs-id1169738971083" class="media-2">
-<para id="fs-id1169739080685">Watch an <link url="http://www.openstax.org/l/20_chainrule2">animation</link> of the chain rule.</para>
+<para id="fs-id1169739080685">Watch an <link url="http://www.openstaxcollege.org/l/20_chainrule2">animation</link> of the chain rule.</para>
 </note>
 <note id="fs-id1169736619728" class="problem-solving">
 <title>Problem-Solving Strategy: Applying the Chain Rule</title>
@@ -84,7 +84,8 @@
 <para id="fs-id1169736595961">Find the derivative of <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1169736613650">
-<para id="fs-id1169739325717"><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para></solution>
+<para id="fs-id1169739325717"><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
 <commentary id="fs-id1169739274677" type="hint">
 <title>Hint</title>
 <para id="fs-id1169739179049">Use <link target-id="fs-id1169739222795"/> with <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
@@ -170,7 +171,7 @@
 </problem>
 <solution id="fs-id1169739300090">
 <para id="fs-id1169739300092">Apply the chain rule to <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> to obtain</para>
-<equation id="fs-id1169739285070" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<equation id="fs-id1169739285070" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169736615162">In this problem, <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so we have <m:math><m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> Therefore, we obtain</para>
 <equation id="fs-id1169739299798" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>sec</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
 </solution>
@@ -194,511 +195,8 @@
 <note id="fs-id1169736610174" class="theorem">
 <title>Using the Chain Rule with Trigonometric Functions</title>
 <para id="fs-id1169736655841">For all values of <m:math><m:mi>x</m:mi></m:math> for which the derivative is defined,</para>
-<equation id="fs-id1169736655849" class="unnumbered"><label/>
-<m:math>
-  <m:mtable>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>sin</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.2em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>cos</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>sin</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.2em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>cos</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-      </m:mtd>
-    </m:mtr>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>cos</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.1em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:mtext>sin</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>cos</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.1em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:mtext>sin</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-      </m:mtd>
-    </m:mtr>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>tan</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.22em"/>
-        <m:mo>=</m:mo>
-        <m:msup>
-          <m:mrow>
-            <m:mtext>sec</m:mtext>
-          </m:mrow>
-          <m:mn>2</m:mn>
-        </m:msup>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>tan</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.2em"/>
-        <m:mo>=</m:mo>
-        <m:msup>
-          <m:mrow>
-            <m:mtext>sec</m:mtext>
-          </m:mrow>
-          <m:mn>2</m:mn>
-        </m:msup>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-      </m:mtd>
-    </m:mtr>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>cot</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:msup>
-          <m:mrow>
-            <m:mtext>csc</m:mtext>
-          </m:mrow>
-          <m:mn>2</m:mn>
-        </m:msup>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>cot</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:msup>
-          <m:mrow>
-            <m:mtext>csc</m:mtext>
-          </m:mrow>
-          <m:mn>2</m:mn>
-        </m:msup>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-      </m:mtd>
-    </m:mtr>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>sec</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>sec</m:mtext>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>g</m:mi>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mi>x</m:mi>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.1em"/>
-        <m:mtext>tan</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>sec</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>sec</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.1em"/>
-        <m:mtext>tan</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-      </m:mtd>
-    </m:mtr>
-    <m:mtr>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mtext>csc</m:mtext>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>g</m:mi>
-            <m:mo stretchy="false">(</m:mo>
-            <m:mi>x</m:mi>
-            <m:mo stretchy="false">)</m:mo>
-            <m:mo stretchy="false">)</m:mo>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:mtext>csc</m:mtext>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>g</m:mi>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mi>x</m:mi>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mo stretchy="false">)</m:mo>
-        <m:mtext>cot</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mrow>
-          <m:mo>(</m:mo>
-          <m:mrow>
-            <m:mi>g</m:mi>
-            <m:mrow>
-              <m:mo>(</m:mo>
-              <m:mi>x</m:mi>
-               <m:mo stretchy="false">)</m:mo>
-            </m:mrow>
-          </m:mrow>
-           <m:mo stretchy="false">)</m:mo>
-        </m:mrow>
-        <m:mi>g</m:mi>
-        <m:mo>′</m:mo>
-        <m:mo stretchy="false">(</m:mo>
-        <m:mi>x</m:mi>
-        <m:mo stretchy="false">)</m:mo> <m:mo stretchy="false">)</m:mo>
-      </m:mtd>
-      <m:mtd/>
-      <m:mtd/>
-      <m:mtd columnalign="left">
-        <m:mfrac>
-          <m:mi>d</m:mi>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mspace width="0.1em"/>
-        <m:mtext>csc</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.25em"/>
-        <m:mo>=</m:mo>
-        <m:mtext>−</m:mtext>
-        <m:mtext>csc</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mspace width="0.1em"/>
-        <m:mtext>cot</m:mtext>
-        <m:mspace width="0.1em"/>
-        <m:mi>u</m:mi>
-        <m:mfrac>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>u</m:mi>
-          </m:mrow>
-          <m:mrow>
-            <m:mi>d</m:mi>
-            <m:mi>x</m:mi>
-          </m:mrow>
-        </m:mfrac>
-        <m:mo>.</m:mo>
-      </m:mtd>
-    </m:mtr>
-  </m:mtable>
-</m:math>
-</equation></note>
+<equation id="fs-id1169736655849" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.1em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>tan</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.22em"/><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.2em"/><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cot</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mrow><m:mtext>csc</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>cot</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mrow><m:mtext>csc</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sec</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>sec</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>sec</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.1em"/><m:mtext>tan</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>csc</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>csc</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>cot</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.1em"/><m:mtext>csc</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.25em"/><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mtext>csc</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mspace width="0.1em"/><m:mtext>cot</m:mtext><m:mspace width="0.1em"/><m:mi>u</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+</note>
 <example id="fs-id1169739298047">
 <exercise id="fs-id1169739298049">
 <problem id="fs-id1169739298051">
@@ -707,7 +205,8 @@
 </problem>
 <solution id="fs-id1169739345780">
 <para id="fs-id1169739345782">First apply the product rule, then apply the chain rule to each term of the product.</para>
-<equation id="fs-id1169739345785" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>7</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the product rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>6</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>10</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>21</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Factor out</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>72</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></solution>
+<equation id="fs-id1169739345785" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>7</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the product rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>6</m:mn></m:msup><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>10</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>7</m:mn></m:msup><m:mo>+</m:mo><m:mn>21</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>21</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Factor out</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>72</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>49</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+</solution>
 </exercise>
 </example>
 <note id="fs-id1169736603462" class="checkpoint">
@@ -753,7 +252,8 @@
 <para id="fs-id1169736658640">First, rewrite <m:math><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as</para>
 <equation id="fs-id1169736658656" class="unnumbered"><label/><m:math><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169739275169">Then apply the chain rule several times.</para>
-<equation id="fs-id1169739275173" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>k</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−56</m:mn><m:mi>x</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></solution>
+<equation id="fs-id1169739275173" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>k</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>14</m:mn><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Apply the chain rule.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−56</m:mn><m:mi>x</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
+</solution>
 </exercise>
 </example>
 <note id="fs-id1169739350744" class="checkpoint">
@@ -845,7 +345,7 @@
 <section id="fs-id1169739353337">
 <title>The Chain Rule Using Leibniz’s Notation</title>
 <para id="fs-id1169739353342">As with other derivatives that we have seen, we can express the chain rule using Leibniz’s notation. This notation for the chain rule is used heavily in physics applications.</para>
-<para id="fs-id1169739353347"><m:math><m:mrow><m:mtext>For</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Thus,</para>
+<para id="fs-id1169739353347"><m:math><m:mrow><m:mtext>For</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> let <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Thus,</para>
 <equation id="fs-id1169739353438" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169739307916">Consequently,</para>
 <equation id="fs-id1169739307919" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
@@ -916,19 +416,12 @@ In Leibniz’s notation this rule takes the form<newline/>
 </section>
 <section id="fs-id1169736654969" class="key-equations">
 <title>Key Equations</title>
-<table id="eip-494" summary="." class="unnumbered unstyled">
-<tgroup cols="2"><tbody>
-  <row>
-    <entry><emphasis effect="bold">The chain rule</emphasis></entry>
-    <entry><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">The power rule for functions</emphasis></entry>
-    <entry><m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
-  </row>
-</tbody>
-</tgroup>
-</table>
+<list id="fs-id1169736654976" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">The chain rule</emphasis><newline/>
+<m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><emphasis effect="bold">The power rule for functions</emphasis><newline/>
+<m:math><m:mrow><m:msup><m:mi>h</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:msup><m:mi>g</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+</list>
 </section>
 <section id="fs-id1169736655110" class="section-exercises">
 <para id="fs-id1169736655114">For the following exercises, given <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> find <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> by using Leibniz’s notation for the chain rule: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>u</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
@@ -1022,10 +515,10 @@ In Leibniz’s notation this rule takes the form<newline/>
 </exercise>
 <exercise id="fs-id1169739280417">
 <problem id="fs-id1169739280419">
-<para id="fs-id1169739280421"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mspace width="0.1em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mtext>sin</m:mtext><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mi>x</m:mi></m:mrow></m:math></para>
+<para id="fs-id1169739280421"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn><m:mspace width="0.1em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mi>x</m:mi></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1169739280443">
-<para id="fs-id1169739280445">a. <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn><m:msup><m:mi>u</m:mi><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo>,</m:mo><m:mi>u</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>18</m:mn><m:mspace width="0.1em"/><m:msup><m:mrow><m:mo>(</m:mo><m:mtext>sin</m:mtext><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>·</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+<para id="fs-id1169739280445">a. <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>u</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn><m:msup><m:mi>u</m:mi><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mo>,</m:mo><m:mi>u</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>18</m:mn><m:mspace width="0.1em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mi>x</m:mi><m:mo>·</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>x</m:mi></m:mrow></m:math></para>
 </solution>
 </exercise>
 <para id="fs-id1169739280513">For the following exercises, find <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> for each function.</para>
@@ -1096,7 +589,7 @@ In Leibniz’s notation this rule takes the form<newline/>
 </exercise>
 <exercise id="fs-id1169738988193">
 <problem id="fs-id1169738988195">
-<para id="fs-id1169738988197">Let <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and suppose that <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169738988197">Let <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> and suppose that <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Find <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1169738988313">
@@ -1311,7 +804,7 @@ In Leibniz’s notation this rule takes the form<newline/>
 </solution>
 </exercise>
 </section>
-  </content>
+</content>
 <glossary>
 <definition id="fs-id1169739296745">
 <term>chain rule</term>
