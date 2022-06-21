@@ -4,7 +4,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53640</md:content-id>
   <md:title>Areas between Curves</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract><list>
 <item>Determine the area of a region between two curves by integrating with respect to the independent variable.</item>
 <item>Find the area of a compound region.</item>
 <item>Determine the area of a region between two curves by integrating with respect to the dependent variable.</item>
@@ -13,7 +13,7 @@
 </metadata>
 
 <content>
-<para id="fs-id1167793932795">In <link document="m53623">Introduction to Integration</link>, we developed the concept of the definite integral to calculate the area below a curve on a given interval. In this section, we expand that idea to calculate the area of more complex regions. We start by finding the area between two curves that are functions of <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> beginning with the simple case in which one function value is always greater than the other. We then look at cases when the graphs of the functions cross. Last, we consider how to calculate the area between two curves that are functions of <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793932795">In <link class="target-chapter" document="m53623">Introduction to Integration</link>, we developed the concept of the definite integral to calculate the area below a curve on a given interval. In this section, we expand that idea to calculate the area of more complex regions. We start by finding the area between two curves that are functions of <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> beginning with the simple case in which one function value is always greater than the other. We then look at cases when the graphs of the functions cross. Last, we consider how to calculate the area between two curves that are functions of <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
 <section id="fs-id1167793485289">
 <title>Area of a Region between Two Curves</title>
 <para id="fs-id1167793369342">Let <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> be continuous functions over an interval <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math> such that <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>≥</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> on <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We want to find the area between the graphs of the functions, as shown in the following figure.</para>
@@ -256,7 +256,8 @@
 <note id="fs-id1167793668614" class="checkpoint">
 <exercise id="fs-id1167793668617">
 <problem id="fs-id1167793668619">
-<para id="fs-id1167793668621">Let’s revisit the checkpoint associated with <link target-id="fs-id1167793455088"/>, only this time, let’s integrate with respect to <m:math><m:mi>y</m:mi><m:mo>.</m:mo></m:math> Let <m:math><m:mi>R</m:mi></m:math> be the region depicted in the following figure. Find the area of <m:math><m:mi>R</m:mi></m:math> by integrating with respect to <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para><media id="fs-id1167793455079" alt="This figure is has two graphs in the first quadrant. They are the functions f(x) = squareroot of x and g(x)= 3/2 – x/2. In between these graphs is a shaded region, bounded to the left by f(x) and to the right by g(x). All of which is above the x-axis. The shaded area is between x=0 and x=3.">
+<para id="fs-id1167793668621">Let’s revisit the checkpoint associated with <link target-id="fs-id1167793455088"/>, only this time, let’s integrate with respect to <m:math><m:mi>y</m:mi><m:mo>.</m:mo></m:math> Let be the region depicted in the following figure. Find the area of <m:math><m:mi>R</m:mi></m:math> by integrating with respect to <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167793455079" alt="This figure is has two graphs in the first quadrant. They are the functions f(x) = squareroot of x and g(x)= 3/2 – x/2. In between these graphs is a shaded region, bounded to the left by f(x) and to the right by g(x). All of which is above the x-axis. The shaded area is between x=0 and x=3.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_06_01_011.jpg"/>
 </media>
 </problem>
@@ -281,19 +282,12 @@
 </section>
 <section id="fs-id1167793470788" class="key-equations">
 <title>Key Equations</title>
-<table id="eip-504" summary="." class="unnumbered unstyled">
-<tgroup cols="2"><tbody>
-  <row>
-    <entry><emphasis effect="bold">Area between two curves, integrating on the <emphasis effect="italics">x</emphasis>-axis</emphasis></entry>
-    <entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mo stretchy="false">∫</m:mo></m:mstyle><m:mi>a</m:mi><m:mi>b</m:mi></m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">Area between two curves, integrating on the <emphasis effect="italics">y</emphasis>-axis</emphasis></entry>
-    <entry><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mo stretchy="false">∫</m:mo></m:mstyle><m:mi>c</m:mi><m:mi>d</m:mi></m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:math></entry>
-  </row>
-</tbody>
-</tgroup>
-</table>
+<list id="fs-id1167793552628" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Area between two curves, integrating on the <emphasis effect="italics">x</emphasis>-axis</emphasis><newline/>
+<m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mo stretchy="false">∫</m:mo></m:mstyle><m:mi>a</m:mi><m:mi>b</m:mi></m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow></m:math></item>
+<item><emphasis effect="bold">Area between two curves, integrating on the <emphasis effect="italics">y</emphasis>-axis</emphasis><newline/>
+<m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msubsup><m:mstyle mathsize="140%" displaystyle="true"><m:mo stretchy="false">∫</m:mo></m:mstyle><m:mi>c</m:mi><m:mi>d</m:mi></m:msubsup><m:mrow><m:mo>[</m:mo><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow></m:math></item>
+</list>
 </section>
 <section id="fs-id1167793298894" class="section-exercises">
 <para id="fs-id1167793298898">For the following exercises, determine the area of the region between the two curves in the given figure by integrating over the <m:math><m:mrow><m:mi>x</m:mi><m:mtext>-axis</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para>
@@ -331,7 +325,7 @@
 <exercise id="fs-id1167793423487">
 <problem id="fs-id1167793423489">
 <para id="fs-id1167793423491"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn><m:mo>,</m:mo></m:mrow></m:math> for <m:math><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>≤</m:mo><m:mi>π</m:mi></m:mrow></m:math></para>
-<media id="fs-id1167793940354" alt="This figure is has two graphs. They are the functions f(theta) = cos(theta) and g(theta)= 0.5. These graphs intersect twice. The regions between the intersections are shaded. The first region is bounded above by f(theta) and below by g(theta). The second region is bounded above by g(theta) and below by f(theta).">
+<media id="fs-id1167793940354" alt="This figure is has two graphs. They are the functions f(theta) = cos(theta) and g(x)= 0.5. These graphs intersect twice. The regions between the intersections are shaded. The first region is bounded above by f(x) and below by g(x). The second region is bounded above by g(x) and below by f(x).">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_06_01_204.jpg"/>
 </media>
 </problem>
@@ -419,7 +413,7 @@
 <para id="fs-id1167793546875">For the following exercises, graph the equations and shade the area of the region between the curves. If necessary, break the region into sub-regions to determine its entire area.</para>
 <exercise id="fs-id1167793546880">
 <problem id="fs-id1167793546882">
-<para id="fs-id1167793546884"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167793546884"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793318490">
@@ -528,7 +522,7 @@
 <media id="fs-id1167793473601" alt="This figure is has two graphs. They are the equations y=xe^x and y=e^x. The graphs intersect, forming a region in between them in the first quadrant.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_06_01_227.jpg"/>
 </media><newline/>
-<m:math><m:mrow><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:mrow></m:math></para>
+<m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1167793473627">
@@ -754,5 +748,5 @@
 </solution>
 </exercise>
 </section>
-   </content>
+</content>
 </document>
