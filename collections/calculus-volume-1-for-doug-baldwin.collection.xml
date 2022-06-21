@@ -1,0 +1,97 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col26303</md:content-id>
+    <md:title>Calculus Volume 1 for SUNY Geneseo</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike License</md:license>
+    <md:uuid>c02324b0-4fdb-46dd-9c4b-b71e27d8a733</md:uuid>
+<md:slug>calculus-volume-1-for-doug-baldwin</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m60027"/>
+    <col:subcollection>
+      <md:title>Functions and Graphs</md:title>
+      <col:content>
+        <col:module document="m78504"/>
+        <col:module document="m78075"/>
+        <col:module document="m78151"/>
+        <col:module document="m78501"/>
+        <col:module document="m78152"/>
+        <col:module document="m78502"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Limits</md:title>
+      <col:content>
+        <col:module document="m78497"/>
+        <col:module document="m71402"/>
+        <col:module document="m71420"/>
+        <col:module document="m71581"/>
+        <col:module document="m71618"/>
+        <col:module document="m71629"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Derivatives</md:title>
+      <col:content>
+        <col:module document="m78498"/>
+        <col:module document="m77368"/>
+        <col:module document="m77472"/>
+        <col:module document="m77475"/>
+        <col:module document="m77687"/>
+        <col:module document="m77690"/>
+        <col:module document="m77937"/>
+        <col:module document="m77946"/>
+        <col:module document="m71413"/>
+        <col:module document="m77958"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Applications of Derivatives</md:title>
+      <col:content>
+        <col:module document="m53602"/>
+        <col:module document="m53604"/>
+        <col:module document="m77700"/>
+        <col:module document="m77692"/>
+        <col:module document="m77688"/>
+        <col:module document="m77702"/>
+        <col:module document="m78578"/>
+        <col:module document="m77705"/>
+        <col:module document="m77706"/>
+        <col:module document="m77707"/>
+        <col:module document="m78579"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Integration</md:title>
+      <col:content>
+        <col:module document="m78494"/>
+        <col:module document="m78466"/>
+        <col:module document="m78465"/>
+        <col:module document="m78580"/>
+        <col:module document="m78496"/>
+        <col:module document="m78461"/>
+        <col:module document="m53635"/>
+        <col:module document="m78581"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Applications of Integration</md:title>
+      <col:content>
+        <col:module document="m78499"/>
+        <col:module document="m77966"/>
+        <col:module document="m77971"/>
+        <col:module document="m53643"/>
+        <col:module document="m78085"/>
+        <col:module document="m78096"/>
+        <col:module document="m78125"/>
+        <col:module document="m78128"/>
+        <col:module document="m78129"/>
+        <col:module document="m78582"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m54049"/>
+    <col:module document="m54050"/>
+    <col:module document="m54053"/>
+  </col:content>
+</col:collection>

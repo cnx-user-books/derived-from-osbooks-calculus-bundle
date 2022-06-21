@@ -1,5 +1,3 @@
 <container xmlns="https://openstax.org/namespaces/book-container" version="1">
-     <book slug="calculus-volume-1" collection-id="col11964" style="calculus" href="../collections/calculus-volume-1.collection.xml" />
-     <book slug="calculus-volume-2" collection-id="col11965" style="calculus" href="../collections/calculus-volume-2.collection.xml" />
-     <book slug="calculus-volume-3" collection-id="col11966" style="calculus" href="../collections/calculus-volume-3.collection.xml" />
+    <book slug="calculus-volume-1-for-doug-baldwin" collection-id="col26303" href="../collections/calculus-volume-1-for-doug-baldwin.collection.xml" />
 </container>
