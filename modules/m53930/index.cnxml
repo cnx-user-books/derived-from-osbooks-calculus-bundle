@@ -3,7 +3,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m53930</md:content-id>
   <md:title>Motion in Space</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract><list>
 <item>Describe the velocity and acceleration vectors of a particle moving in space.</item>
 <item>Explain the tangential and normal components of acceleration.</item>
 <item>State Kepler’s laws of planetary motion.</item>
@@ -15,12 +15,12 @@
 <para id="fs-id1169737822305">We have now seen how to describe curves in the plane and in space, and how to determine their properties, such as arc length and curvature. All of this leads to the main goal of this chapter, which is the description of motion along plane curves and space curves. We now have all the tools we need; in this section, we put these ideas together and look at how to use them.</para>
 <section id="fs-id1169737819083">
 <title>Motion Vectors in the Plane and in Space</title>
-<para id="fs-id1169738046114">Our starting point is using <term class="no-emphasis" id="term-00001">vector-valued functions</term> to represent the position of an object as a function of time. All of the following material can be applied either to curves in the plane or to space curves. For example, when we look at the orbit of the planets, the curves defining these orbits all lie in a plane because they are elliptical. However, a particle traveling along a helix moves on a curve in three dimensions.</para>
+<para id="fs-id1169738046114">Our starting point is using <term class="no-emphasis">vector-valued functions</term> to represent the position of an object as a function of time. All of the following material can be applied either to curves in the plane or to space curves. For example, when we look at the orbit of the planets, the curves defining these orbits all lie in a plane because they are elliptical. However, a particle traveling along a helix moves on a curve in three dimensions.</para>
 <note id="fs-id1169737743731">
 <title>Definition</title>
-<para id="fs-id1169737574587">Let <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> be a twice-differentiable vector-valued function of the parameter <emphasis effect="italics">t</emphasis> that represents the position of an object as a function of time. The <term id="term-00002">velocity vector</term> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> of the object is given by</para>
+<para id="fs-id1169737574587">Let <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> be a twice-differentiable vector-valued function of the parameter <emphasis effect="italics">t</emphasis> that represents the position of an object as a function of time. The <term>velocity vector</term> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> of the object is given by</para>
 <equation id="fs-id1169738144149"><m:math><m:mrow><m:mtext>Velocity</m:mtext><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1169737847581">The <term id="term-00003">acceleration vector</term> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is defined to be</para>
+<para id="fs-id1169737847581">The <term>acceleration vector</term> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is defined to be</para>
 <equation id="fs-id1169738166350"><m:math><m:mrow><m:mtext>Acceleration</m:mtext><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r″</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169738027342">The <emphasis effect="italics">speed</emphasis> is defined to be</para>
 <equation id="fs-id1169737947455"><m:math><m:mrow><m:mtext>Speed</m:mtext><m:mo>=</m:mo><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
@@ -124,7 +124,7 @@ Notice that the velocity vector is tangent to the path, as is always the case.<n
 </section>
 <section id="fs-id1169737497108">
 <title>Components of the Acceleration Vector</title>
-<para id="fs-id1169737953364">We can combine some of the concepts discussed in <link document="m53919">Arc Length and Curvature</link> with the acceleration vector to gain a deeper understanding of how this vector relates to motion in the plane and in space. Recall that the unit tangent vector <emphasis effect="bold">T</emphasis> and the unit normal vector <emphasis effect="bold">N</emphasis> form an osculating plane at any point <emphasis effect="italics">P</emphasis> on the curve defined by a vector-valued function <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The following theorem shows that the acceleration vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> lies in the osculating plane and can be written as a linear combination of the unit tangent and the unit normal vectors.</para>
+<para id="fs-id1169737953364">We can combine some of the concepts discussed in <link class="target-chapter" document="m53919">Arc Length and Curvature</link> with the acceleration vector to gain a deeper understanding of how this vector relates to motion in the plane and in space. Recall that the unit tangent vector <emphasis effect="bold">T</emphasis> and the unit normal vector <emphasis effect="bold">N</emphasis> form an osculating plane at any point <emphasis effect="italics">P</emphasis> on the curve defined by a vector-valued function <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The following theorem shows that the acceleration vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> lies in the osculating plane and can be written as a linear combination of the unit tangent and the unit normal vectors.</para>
 <note id="fs-id1169737814963" class="theorem">
 <title>The Plane of the Acceleration Vector</title>
 <para id="fs-id1169737141489">The acceleration vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> of an object moving along a curve traced out by a twice-differentiable function <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> lies in the plane formed by the unit tangent vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the principal unit normal vector <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> to <emphasis effect="italics">C.</emphasis> Furthermore,</para>
@@ -139,7 +139,7 @@ Notice that the velocity vector is tangent to the path, as is always the case.<n
 <equation id="fs-id1169737301577" class="unnumbered"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>T</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169737301178">A formula for curvature is <m:math><m:mrow><m:mi>κ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>T</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> so <m:math><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>T</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mi>κ</m:mi><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mi>κ</m:mi><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This gives <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>κ</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1169737278464">□</para>
-<para id="fs-id1169738079834">The coefficients of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are referred to as the <term id="term-00004">tangential component of acceleration</term> and the <term id="term-00005">normal component of acceleration</term>, respectively. We write <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mrow></m:math> to denote the tangential component and <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub></m:mrow></m:math> to denote the normal component.</para>
+<para id="fs-id1169738079834">The coefficients of <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are referred to as the <term>tangential component of acceleration</term> and the <term>normal component of acceleration</term>, respectively. We write <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mrow></m:math> to denote the tangential component and <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub></m:mrow></m:math> to denote the normal component.</para>
 <note id="fs-id1169738126019" class="theorem">
 <title>Tangential and Normal Components of Acceleration</title>
 <para id="fs-id1169737409784">Let <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> be a vector-valued function that denotes the position of an object as a function of time. Then <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r″</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the acceleration vector. The tangential and normal components of acceleration <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub></m:mrow></m:math> are given by the formulas</para>
@@ -173,22 +173,7 @@ Notice that the velocity vector is tangent to the path, as is always the case.<n
 <item>Let’s start with <link target-id="fs-id1169738185179"/>:<newline/>
 <equation id="fs-id1169738194389" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><newline/>
 Then we apply <link target-id="fs-id1169738191530"/>:<newline/>
-<equation id="fs-id1169737413633" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow>
-<m:msup><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo>
-<m:msup><m:mrow><m:mi>a</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow>
-<m:msup><m:mrow><m:mo>‖</m:mo><m:mrow><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mrow><m:mo>‖</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo>
-<m:msup>
-	<m:mrow><m:mo>(</m:mo>
-<m:mrow>
-	<m:mfrac><m:mrow><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow>
-	<m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup>
-	<m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac>
-</m:mrow><m:mo>)</m:mo></m:mrow>
-<m:mn>2</m:mn>
-</m:msup>
-</m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/>
-<m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>36</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow>
-<m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1600</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1440</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>324</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>196</m:mn></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<equation id="fs-id1169737413633" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>a</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>6</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>36</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>40</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1600</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1440</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>324</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>196</m:mn></m:mrow><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
 <item>We must evaluate each of the answers from part a. at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>:</m:mtext></m:mrow></m:math><newline/>
 <equation id="fs-id1169738072962" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>40</m:mn><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>80</m:mn><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>160</m:mn><m:mo>−</m:mo><m:mn>72</m:mn><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>62</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>101</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>40</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>160</m:mn><m:mo>−</m:mo><m:mn>72</m:mn><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>101</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><newline/>
 The units of acceleration are feet per second squared, as are the units of the normal and tangential components of acceleration.</item>
@@ -207,7 +192,7 @@ The units of acceleration are feet per second squared, as are the units of the n
 </problem>
 <solution id="fs-id1169737949753">
 <list id="fs-id1169737949756" list-type="enumerated" number-style="lower-alpha">
-<item><m:math><m:mtable><m:mtr><m:mtd><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:msup><m:mi mathvariant="bold">r</m:mi><m:mo mathvariant="bold">'</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext mathvariant="bold">i</m:mtext><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mtext mathvariant="bold">j</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd><m:mtext mathvariant="bold">a</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:msup><m:mi mathvariant="bold">v</m:mi><m:mo mathvariant="bold">'</m:mo></m:msup><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext mathvariant="bold">j</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:msqrt><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:msqrt></m:mfrac><m:mo>,</m:mo><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:msqrt><m:mn>4</m:mn><m:mo>+</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></item>
+<item><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></item>
 <item><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msqrt><m:mrow><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:mn>13</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:math></item>
 </list>
 </solution>
@@ -221,7 +206,7 @@ The units of acceleration are feet per second squared, as are the units of the n
 </section>
 <section id="fs-id1169737393054">
 <title>Projectile Motion</title>
-<para id="fs-id1169737393059">Now let’s look at an application of vector functions. In particular, let’s consider the effect of gravity on the motion of an object as it travels through the air, and how it determines the resulting trajectory of that object. In the following, we ignore the effect of air resistance. This situation, with an object moving with an initial velocity but with no forces acting on it other than gravity, is known as <term id="term-00006">projectile motion</term>. It describes the motion of objects from golf balls to baseballs, and from arrows to cannonballs.</para>
+<para id="fs-id1169737393059">Now let’s look at an application of vector functions. In particular, let’s consider the effect of gravity on the motion of an object as it travels through the air, and how it determines the resulting trajectory of that object. In the following, we ignore the effect of air resistance. This situation, with an object moving with an initial velocity but with no forces acting on it other than gravity, is known as <term>projectile motion</term>. It describes the motion of objects from golf balls to baseballs, and from arrows to cannonballs.</para>
 <para id="fs-id1169737818838">First we need to choose a coordinate system. If we are standing at the origin of this coordinate system, then we choose the positive <emphasis effect="italics">y</emphasis>-axis to be up, the negative <emphasis effect="italics">y-</emphasis>axis to be down, and the positive <emphasis effect="italics">x-</emphasis>axis to be forward (i.e., away from the thrower of the object). The effect of gravity is in a downward direction, so Newton’s second law tells us that the force on the object resulting from gravity is equal to the mass of the object times the acceleration resulting from to gravity, or <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>g</m:mi></m:msub></m:mrow></m:math> represents the force from gravity and <emphasis effect="italics">g</emphasis> represents the acceleration resulting from gravity at Earth’s surface. The value of <emphasis effect="italics">g</emphasis> in the English system of measurement is approximately 32 ft/sec<sup>2</sup> and it is approximately 9.8 m/sec<sup>2</sup> in the metric system. This is the only force acting on the object. Since gravity acts in a downward direction, we can write the force resulting from gravity in the form <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>g</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> as shown in the following figure.</para>
 <figure id="CNX_Calc_Figure_13_04_005">
 <media id="fs-id1169737594051" alt="This figure is a ball falling in a vertical path. The ball is at the top at the initial position. From the ball a vector is drawn vertically downward labeled “acceleration”. The vertical line is labeled “distance”. At the bottom of the line it is labeled “final position”. There is also grass at the bottom of the figure.">
@@ -230,7 +215,7 @@ The units of acceleration are feet per second squared, as are the units of the n
 <caption>An object is falling under the influence of gravity.</caption>
 </figure>
 <note id="fs-id1169737832897" class="media-2">
-<para id="fs-id1169737211907">Visit this <link url="http://www.openstax.org/l/20_projectile">website</link> for a video showing projectile motion.</para>
+<para id="fs-id1169737211907">Visit this <link url="http://www.openstaxcollege.org/l/20_projectile">website</link> for a video showing projectile motion.</para>
 </note>
 <para id="fs-id1169738244442">Newton’s second law also tells us that <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="bold">a</emphasis> represents the acceleration vector of the object. This force must be equal to the force of gravity at all times, so we therefore know that</para>
 <equation id="fs-id1169737410820" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>F</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mi>F</m:mi><m:mi>g</m:mi></m:msub></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>g</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
@@ -323,7 +308,7 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 </section>
 <section id="fs-id1169737274020">
 <title>Kepler’s Laws</title>
-<para id="fs-id1169738223445">During the early 1600s, Johannes <term class="no-emphasis" id="term-00007">Kepler</term> was able to use the amazingly accurate data from his mentor Tycho <term class="no-emphasis" id="term-00008">Brahe</term> to formulate his three laws of planetary motion, now known as <term id="term-00009">Kepler’s laws of planetary motion</term>. These laws also apply to other objects in the solar system in orbit around the Sun, such as comets (e.g., Halley’s comet) and asteroids. Variations of these laws apply to satellites in orbit around Earth.</para>
+<para id="fs-id1169738223445">During the early 1600s, Johannes <term class="no-emphasis">Kepler</term> was able to use the amazingly accurate data from his mentor Tycho <term class="no-emphasis">Brahe</term> to formulate his three laws of planetary motion, now known as <term>Kepler’s laws of planetary motion</term>. These laws also apply to other objects in the solar system in orbit around the Sun, such as comets (e.g., Halley’s comet) and asteroids. Variations of these laws apply to satellites in orbit around Earth.</para>
 <note id="fs-id1169737817346" class="theorem">
 <title>Kepler’s Laws of Planetary Motion</title>
 <list id="fs-id1169737431081" list-type="enumerated" number-style="lower-roman">
@@ -360,7 +345,7 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 <para id="fs-id1169737389169">This proves that <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow></m:math> is a constant vector, which we call <emphasis effect="bold">C</emphasis>. Since <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:math> and <emphasis effect="bold">v</emphasis> are both perpendicular to <emphasis effect="bold">C</emphasis> for all values of <emphasis effect="italics">t</emphasis>, they must lie in a plane perpendicular to <emphasis effect="bold">C</emphasis>. Therefore, the motion of the planet lies in a plane.</para>
 <para id="fs-id1169738018260">Next we calculate the expression <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>C</m:mtext></m:mstyle><m:mtext>:</m:mtext></m:mrow></m:math></para>
 <equation id="fs-id1169737178273"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>C</m:mtext></m:mstyle><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mrow><m:mo>[</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle></m:mrow><m:mo>]</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
-<para id="fs-id1169737418819">The last equality in <link target-id="fs-id1169737178273"/> is from the triple cross product formula (<link document="m53906">Introduction to Vectors in Space</link>). We need an expression for <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> To calculate this, we differentiate <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow></m:math> with respect to time:</para>
+<para id="fs-id1169737418819">The last equality in <link target-id="fs-id1169737178273"/> is from the triple cross product formula (<link class="target-chapter" document="m53906">Introduction to Vectors in Space</link>). We need an expression for <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> To calculate this, we differentiate <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow></m:math> with respect to time:</para>
 <equation id="fs-id1169737757050"><m:math><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>+</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169737299940">Since <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> we also have</para>
 <equation id="fs-id1169737831128"><m:math><m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mfrac><m:mi>d</m:mi><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
@@ -384,7 +369,7 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 <equation id="fs-id1169738183717" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>C</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>G</m:mi><m:mi>M</m:mi><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>D</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169738183345">Solving for <m:math><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></para>
 <equation id="fs-id1169738166961" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>C</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi><m:mo>+</m:mo><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>D</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>C</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>e</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1169737410270">where <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>D</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This is the polar equation of a conic with a focus at the origin, which we set up to be the Sun. It is a hyperbola if <m:math><m:mrow><m:mi>e</m:mi><m:mo>></m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> a parabola if <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> or an ellipse if <m:math><m:mrow><m:mi>e</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since planets have closed orbits, the only possibility is an ellipse. However, at this point it should be mentioned that hyperbolic comets do exist. These are objects that are merely passing through the solar system at speeds too great to be trapped into orbit around the Sun. As they pass close enough to the Sun, the gravitational field of the Sun deflects the trajectory enough so the path becomes hyperbolic.</para>
+<para id="fs-id1169737410270">where <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>D</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This is the polar equation of a conic with a focus at the origin, which we set up to be the Sun. It is a hyperbola if <m:math><m:mrow><m:mi>e</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> a parabola if <m:math><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> or an ellipse if <m:math><m:mrow><m:mi>e</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since planets have closed orbits, the only possibility is an ellipse. However, at this point it should be mentioned that hyperbolic comets do exist. These are objects that are merely passing through the solar system at speeds too great to be trapped into orbit around the Sun. As they pass close enough to the Sun, the gravitational field of the Sun deflects the trajectory enough so the path becomes hyperbolic.</para>
 <para id="fs-id1169738104783">□</para>
 <example id="fs-id1169738104787">
 <exercise id="fs-id1169737204111">
@@ -393,347 +378,13 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 <para id="fs-id1169737204120">Kepler’s third law of planetary motion can be modified to the case of one object in orbit around an object other than the Sun, such as the Moon around the Earth. In this case, Kepler’s third law becomes</para>
 <equation id="fs-id1169737204126"><m:math><m:mrow><m:msup><m:mi>P</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>M</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation>
 <para id="fs-id1169737849145">where <emphasis effect="italics">m</emphasis> is the mass of the Moon and <emphasis effect="italics">M</emphasis> is the mass of Earth, <emphasis effect="italics">a</emphasis> represents the length of the major axis of the elliptical orbit, and <emphasis effect="italics">P</emphasis> represents the period.</para>
-<para id="fs-id1169737849169">Given that the mass of the Moon is 
-	<m:math><m:mrow><m:mn>7.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> the mass of Earth is 
-	<m:math><m:mrow><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> 
-	<m:math><m:mrow><m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mrow><m:mrow>
-		<m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo>
-		<m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and the period of the moon is 27.3 days, let’s find the length of the major axis of the orbit of the Moon around Earth.</para>
+<para id="fs-id1169737849169">Given that the mass of the Moon is <m:math><m:mrow><m:mn>7.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> the mass of Earth is <m:math><m:mrow><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and the period of the moon is 27.3 days, let’s find the length of the major axis of the orbit of the Moon around Earth.</para>
 </problem>
 <solution id="fs-id1169737946587">
 <para id="fs-id1169737946589">It is important to be consistent with units. Since the universal gravitational constant contains seconds in the units, we need to use seconds for the period of the Moon as well:</para>
 <equation id="fs-id1169737946594" class="unnumbered"><label/><m:math><m:mrow><m:mn>27.3</m:mn><m:mspace width="0.2em"/><m:mtext>days</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>hr</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>day</m:mtext></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>3600</m:mn><m:mspace width="0.1em"/><m:mtext>sec</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.1em"/><m:mtext>hour</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2,358,720</m:mn><m:mspace width="0.1em"/><m:mtext>sec</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
 <para id="fs-id1169738073042">Substitute all the data into <link target-id="fs-id1169737204126"/> and solve for <emphasis effect="italics">a:</emphasis></para>
-<equation id="fs-id1169737497152" class="unnumbered"><label/><m:math>
-	<m:mtable>
-		<m:mtr>
-			<m:mtd columnalign="right">
-				<m:msup>
-					<m:mrow>
-						<m:mo>(</m:mo>
-						<m:mrow>
-							<m:mn>2,358,720</m:mn>
-							<m:mspace width="0.1em"/>
-							<m:mtext>sec</m:mtext>
-						</m:mrow>
-						<m:mo>)</m:mo>
-					</m:mrow>
-					<m:mn>2</m:mn>
-				</m:msup>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mo>=</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mfrac>
-					<m:mrow>
-						<m:mn>4</m:mn>
-						<m:msup>
-							<m:mi>π</m:mi>
-							<m:mn>2</m:mn>
-						</m:msup>
-						<m:msup>
-							<m:mi>a</m:mi>
-							<m:mn>3</m:mn>
-						</m:msup>
-					</m:mrow>
-					<m:mrow>
-						<m:mrow>
-							<m:mo>(</m:mo>
-							<m:mrow>
-								<m:mn>6.67</m:mn>
-								<m:mspace width="0.2em"/>
-								<m:mo>×</m:mo>
-								<m:mspace width="0.2em"/>
-								<m:msup>
-									<m:mrow>
-										<m:mn>10</m:mn>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>−11</m:mn>
-									</m:mrow>
-								</m:msup>
-								<m:mspace width="0.1em"/>
-								<m:mfrac>
-									<m:mrow>
-										<m:msup>
-											<m:mtext>m</m:mtext>
-											<m:mn>3</m:mn>
-										</m:msup>
-									</m:mrow>
-									<m:mrow>
-										<m:mtext>kg</m:mtext>
-										<m:mo>·</m:mo>
-										<m:mspace width="0.1em"/>
-										<m:msup>
-											<m:mrow>
-												<m:mtext>sec</m:mtext>
-											</m:mrow>
-											<m:mn>2</m:mn>
-										</m:msup>
-									</m:mrow>
-								</m:mfrac>
-							</m:mrow>
-							<m:mo>)</m:mo>
-						</m:mrow>
-						<m:mrow>
-							<m:mo>(</m:mo>
-							<m:mrow>
-								<m:mn>7.35</m:mn>
-								<m:mspace width="0.2em"/>
-								<m:mi>x</m:mi>
-								<m:mspace width="0.2em"/>
-								<m:msup>
-									<m:mrow>
-										<m:mn>10</m:mn>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>22</m:mn>
-									</m:mrow>
-								</m:msup>
-								<m:mtext>kg</m:mtext>
-								<m:mo>+</m:mo>
-								<m:mn>5.97</m:mn>
-								<m:mspace width="0.2em"/>
-								<m:mi>x</m:mi>
-								<m:mspace width="0.2em"/>
-								<m:msup>
-									<m:mrow>
-										<m:mn>10</m:mn>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>24</m:mn>
-									</m:mrow>
-								</m:msup>
-								<m:mtext>kg</m:mtext>
-							</m:mrow>
-							<m:mo>)</m:mo>
-						</m:mrow>
-					</m:mrow>
-				</m:mfrac>
-			</m:mtd>
-		</m:mtr>
-		<m:mtr>
-			<m:mtd columnalign="right">
-				<m:mn>5.563</m:mn>
-				<m:mspace width="0.2em"/>
-				<m:mo>×</m:mo>
-				<m:mspace width="0.2em"/>
-				<m:msup>
-					<m:mn>10</m:mn>
-					<m:mn>12</m:mn>
-				</m:msup>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mo>=</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mfrac>
-					<m:mrow>
-						<m:mn>4</m:mn>
-						<m:msup>
-							<m:mi>π</m:mi>
-							<m:mn>2</m:mn>
-						</m:msup>
-						<m:msup>
-							<m:mi>a</m:mi>
-							<m:mn>3</m:mn>
-						</m:msup>
-					</m:mrow>
-					<m:mrow>
-						<m:mrow>
-							<m:mo>(</m:mo>
-							<m:mrow>
-								<m:mn>6.67</m:mn>
-								<m:mspace width="0.2em"/>
-								<m:mo>×</m:mo>
-								<m:mspace width="0.2em"/>
-								<m:msup>
-									<m:mrow>
-										<m:mn>10</m:mn>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>−11</m:mn>
-									</m:mrow>
-								</m:msup>
-								<m:mspace width="0.1em"/>
-								<m:msup>
-									<m:mtext>m</m:mtext>
-									<m:mn>3</m:mn>
-								</m:msup>
-							</m:mrow>
-							<m:mo>)</m:mo>
-						</m:mrow>
-						<m:mrow>
-							<m:mo>(</m:mo>
-							<m:mrow>
-								<m:mn>6.04</m:mn>
-								<m:mspace width="0.2em"/>
-								<m:mi>x</m:mi>
-								<m:mspace width="0.2em"/>
-								<m:msup>
-									<m:mrow>
-										<m:mn>10</m:mn>
-									</m:mrow>
-									<m:mrow>
-										<m:mn>24</m:mn>
-									</m:mrow>
-								</m:msup>
-							</m:mrow>
-							<m:mo>)</m:mo>
-						</m:mrow>
-					</m:mrow>
-				</m:mfrac>
-			</m:mtd>
-		</m:mtr>
-		<m:mtr>
-			<m:mtd columnalign="right">
-				<m:mrow>
-					<m:mo>(</m:mo>
-					<m:mrow>
-						<m:mn>5.563</m:mn>
-						<m:mspace width="0.2em"/>
-						<m:mo>×</m:mo>
-						<m:mspace width="0.2em"/>
-						<m:msup>
-							<m:mrow>
-								<m:mn>10</m:mn>
-							</m:mrow>
-							<m:mrow>
-								<m:mn>12</m:mn>
-							</m:mrow>
-						</m:msup>
-					</m:mrow>
-					<m:mo>)</m:mo>
-				</m:mrow>
-				<m:mrow>
-					<m:mo>(</m:mo>
-					<m:mrow>
-						<m:mn>6.67</m:mn>
-						<m:mspace width="0.2em"/>
-						<m:mo>×</m:mo>
-						<m:mspace width="0.2em"/>
-						<m:msup>
-							<m:mrow>
-								<m:mn>10</m:mn>
-							</m:mrow>
-							<m:mrow>
-								<m:mn>−11</m:mn>
-							</m:mrow>
-						</m:msup>
-						<m:mspace width="0.1em"/>
-						<m:msup>
-							<m:mtext>m</m:mtext>
-							<m:mn>3</m:mn>
-						</m:msup>
-					</m:mrow>
-					<m:mo>)</m:mo>
-				</m:mrow>
-				<m:mrow>
-					<m:mo>(</m:mo>
-					<m:mrow>
-						<m:mn>6.04</m:mn>
-						<m:mspace width="0.2em"/>
-						<m:mo>×</m:mo>
-						<m:mspace width="0.2em"/>
-						<m:msup>
-							<m:mrow>
-								<m:mn>10</m:mn>
-							</m:mrow>
-							<m:mrow>
-								<m:mn>24</m:mn>
-							</m:mrow>
-						</m:msup>
-					</m:mrow>
-					<m:mo>)</m:mo>
-				</m:mrow>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mo>=</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mn>4</m:mn>
-				<m:msup>
-					<m:mi>π</m:mi>
-					<m:mn>2</m:mn>
-				</m:msup>
-				<m:msup>
-					<m:mi>a</m:mi>
-					<m:mn>3</m:mn>
-				</m:msup>
-			</m:mtd>
-		</m:mtr>
-		<m:mtr>
-			<m:mtd columnalign="right">
-				<m:msup>
-					<m:mi>a</m:mi>
-					<m:mn>3</m:mn>
-				</m:msup>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mo>=</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mfrac>
-					<m:mrow>
-						<m:mn>2.241</m:mn>
-						<m:mspace width="0.2em"/>
-						<m:mo>×</m:mo>
-						<m:mspace width="0.2em"/>
-						<m:msup>
-								<m:mn>10</m:mn>
-								<m:mn>27</m:mn>
-						</m:msup>
-					</m:mrow>
-					<m:mrow>
-						<m:mn>4</m:mn>
-						<m:msup>
-							<m:mi>π</m:mi>
-							<m:mn>2</m:mn>
-						</m:msup>
-					</m:mrow>
-				</m:mfrac>
-				<m:msup>
-					<m:mtext>m</m:mtext>
-					<m:mn>3</m:mn>
-				</m:msup>
-			</m:mtd>
-		</m:mtr>
-		<m:mtr>
-			<m:mtd columnalign="right">
-				<m:mi>a</m:mi>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mo>=</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mn>3.84</m:mn>
-				<m:mspace width="0.2em"/>
-				<m:mo>×</m:mo>
-				<m:mspace width="0.2em"/>
-				<m:msup>
-					<m:mn>10</m:mn>
-					<m:mn>8</m:mn>
-				</m:msup>
-				<m:mtext>m</m:mtext>
-			</m:mtd>
-		</m:mtr>
-		<m:mtr>
-			<m:mtd/>
-			<m:mtd columnalign="left">
-				<m:mo>≈</m:mo>
-			</m:mtd>
-			<m:mtd columnalign="left">
-				<m:mn>384,000</m:mn>
-				<m:mspace width="0.2em"/>
-				<m:mtext>km.</m:mtext>
-			</m:mtd>
-		</m:mtr>
-	</m:mtable>
-</m:math></equation>
+<equation id="fs-id1169737497152" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2,358,720</m:mn><m:mspace width="0.1em"/><m:mtext>sec</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:msup><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:mspace width="0.1em"/><m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7.35</m:mn><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>+</m:mo><m:mn>5.97</m:mn><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>5.563</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.04</m:mn><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.563</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.1em"/><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6.04</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2.241</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3.84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>384,000</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mtext>.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation>
 </solution>
 <commentary id="fs-id1169737523990">
 <title>Analysis</title>
@@ -744,12 +395,7 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 <note id="fs-id1169737484455" class="checkpoint">
 <exercise id="fs-id1169737484459">
 <problem id="fs-id1169737484461">
-<para id="fs-id1169737484464">Titan is the largest moon of Saturn. The mass of Titan is approximately <m:math><m:mrow><m:mn>1.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> kg. The mass of Saturn is approximately <m:math><m:mrow><m:mn>5.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup></m:mrow></m:math> kg. Titan takes approximately 16 days to orbit Saturn. Use this information, along with the universal gravitation constant <m:math><m:mrow><m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/>
-	<m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mrow><m:mrow>
-		<m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo>
-		<m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> to estimate the distance from Titan to Saturn.</para>
+<para id="fs-id1169737484464">Titan is the largest moon of Saturn. The mass of Titan is approximately <m:math><m:mrow><m:mn>1.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup></m:mrow></m:math> kg. The mass of Saturn is approximately <m:math><m:mrow><m:mn>5.68</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup></m:mrow></m:math> kg. Titan takes approximately 16 days to orbit Saturn. Use this information, along with the universal gravitation constant <m:math><m:mrow><m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mrow><m:mtext>sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> to estimate the distance from Titan to Saturn.</para>
 </problem>
 <solution id="fs-id1169737826016">
 <para id="fs-id1169737826018"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1.224</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>m</m:mtext><m:mo>≈</m:mo><m:mn>1,224,000</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math></para>
@@ -794,11 +440,12 @@ Therefore, the ball hits the water about 9914.26 ft away from the base of the cl
 </media>
 <caption>Views of a race car moving around a track.</caption>
 </figure>
-<list id="fs-id1169738145020" list-type="enumerated" number-style="arabic"><item>Find the velocity function <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> of the car. Show that <emphasis effect="bold">v</emphasis> is tangent to the circular curve. This means that, without a force to keep the car on the curve, the car will shoot off of it.</item>
-<item>Show that the speed of the car is <m:math><m:mrow><m:mi>ω</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> Use this to show that <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mi>ω</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<list id="fs-id1169738145020" list-type="enumerated" number-style="arabic">
+<item>Find the velocity function <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> of the car. Show that <emphasis effect="bold">v</emphasis> is tangent to the circular curve. This means that, without a force to keep the car on the curve, the car will shoot off of it.</item>
+<item>Show that the speed of the car is <m:math><m:mrow><m:mi>ω</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> Use this to show that <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mi>ω</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
 <item>Find the acceleration <emphasis effect="bold">a</emphasis>. Show that this vector points toward the center of the circle and that <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mi>R</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
 <item>The force required to produce this circular motion is called the <emphasis effect="italics">centripetal force</emphasis>, and it is denoted <emphasis effect="bold">F</emphasis><sub>cent</sub>. This force points toward the center of the circle (not toward the ground). Show that <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:msup><m:mrow><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo>|</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mi>R</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
-As the car moves around the curve, three forces act on it: gravity, the force exerted by the road (this force is perpendicular to the ground), and the friction force (<link target-id="CNX_Calc_Figure_13_04_012"/>). Because describing the frictional force generated by the tires and the road is complex, we use a standard approximation for the frictional force. Assume that <m:math><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mo>|</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mo>|</m:mo></m:mrow></m:math> for some positive constant <m:math><m:mrow><m:mi>μ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The constant <m:math><m:mi>μ</m:mi></m:math> is called the <emphasis effect="italics">coefficient of friction</emphasis>.<newline/>
+As the car moves around the curve, three forces act on it: gravity, the force exerted by the road (this force is perpendicular to the ground), and the friction force (<link target-id="CNX_Calc_Figure_13_04_012"/>). Because describing the frictional force generated by the tires and the road is complex, we use a standard approximation for the frictional force. Assume that <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mo>=</m:mo><m:mi>μ</m:mi><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle></m:mrow></m:math> for some positive constant <m:math><m:mrow><m:mi>μ</m:mi><m:mo>.</m:mo></m:mrow></m:math> The constant <m:math><m:mi>μ</m:mi></m:math> is called the <emphasis effect="italics">coefficient of friction</emphasis>.<newline/>
 <figure id="CNX_Calc_Figure_13_04_012">
 <media id="fs-id1169737532086" alt="This figure is the front of a car tilted to the left. The angle of the tilt is theta. From the center of the car are three vectors. The first vector is labeled “N” and is coming out of the top of the car perpendicular to the car. The second vector is coming out of the bottom of the car labeled “mg”. The third vector is labeled “f” and is coming out of the side of the car, orthogonal to “N”.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_13_01_006.jpg"/>
@@ -808,15 +455,16 @@ As the car moves around the curve, three forces act on it: gravity, the force ex
 Let <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> denote the maximum speed the car can attain through the curve without skidding. In other words, <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the fastest speed at which the car can navigate the turn. When the car is traveling at this speed, the magnitude of the centripetal force is<newline/>
 <equation id="fs-id1169737285079" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>R</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
 The next three questions deal with developing a formula that relates the speed <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> to the banking angle <m:math><m:mrow><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
-<item>Show that <m:math><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mo>|</m:mo><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>+</m:mo><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mo>|</m:mo><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Conclude that <m:math><m:mrow><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mo>|</m:mo><m:mo>=</m:mo><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math></item>
+<item>Show that <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>+</m:mo><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Conclude that <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mo>=</m:mo><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math></item>
 <item>The centripetal force is the sum of the forces in the horizontal direction, since the centripetal force points toward the center of the circular curve. Show that<newline/>
-<equation id="fs-id1169737410743" class="unnumbered"><label/><m:math><m:mrow><m:mo>|</m:mo><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext><m:mo>|</m:mo></m:mrow></m:msub><m:mo>=</m:mo><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mo>|</m:mo><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mo>|</m:mo><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mo>|</m:mo><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+<equation id="fs-id1169737410743" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold"><m:mtext>N</m:mtext></m:mstyle><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mstyle mathvariant="bold"><m:mtext>f</m:mtext></m:mstyle><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
 Conclude that<newline/>
-<equation id="fs-id1169737410778" class="unnumbered"><label/><m:math><m:mrow><m:mo stretchy="false">|</m:mo><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext><m:mo>|</m:mo></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<equation id="fs-id1169737410778" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold"><m:mtext>F</m:mtext></m:mstyle><m:mrow><m:mtext>cent</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow></m:mfrac><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation></item>
 <item>Show that <m:math><m:mrow><m:msubsup><m:mtext>v</m:mtext><m:mrow><m:mtext>max</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mtext>/</m:mtext><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mi>R</m:mi><m:mo>.</m:mo></m:mrow></m:math> Conclude that the maximum speed does not actually depend on the mass of the car.<newline/>
 Now that we have a formula relating the maximum speed of the car and the banking angle, we are in a position to answer the questions like the one posed at the beginning of the project.<newline/>
 The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The track has the approximate shape shown in <link target-id="CNX_Calc_Figure_13_04_013"/>. Each end of the track is approximately semicircular, so when cars make turns they are traveling along an approximately circular curve. If a car takes the inside track and speeds along the bottom of turn 1, the car travels along a semicircle of radius approximately 211 ft with a banking angle of 24°. If the car decides to take the outside track and speeds along the top of turn 1, then the car travels along a semicircle with a banking angle of 28°. (The track has variable angle banking.)</item>
-</list><figure id="CNX_Calc_Figure_13_04_013">
+</list>
+<figure id="CNX_Calc_Figure_13_04_013">
 <media id="fs-id1169737985446" alt="This figure has two graphics. The first is a picture of a raceway. There are cars on the track and fans in the stands. The second graphic is an oval drawing of a raceway. The inner radius of a curve is labeled “211 ft” and the width of the radius is labeled “40 ft”.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_13_01_007.jpg"/>
 </media>
@@ -844,31 +492,18 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 </section>
 <section id="fs-id1169738104672" class="key-equations">
 <title>Key Equations</title>
-<table id="eip-543" summary="." class="unnumbered unstyled">
-<tgroup cols="2"><tbody>
-  <row>
-    <entry><emphasis effect="bold">Velocity</emphasis></entry>
-    <entry><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">Acceleration</emphasis></entry>
-    <entry><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r″</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">Speed</emphasis></entry>
-    <entry><m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">Tangential component of acceleration</emphasis></entry>
-    <entry><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></entry>
-  </row>
-  <row>
-    <entry><emphasis effect="bold">Normal component of acceleration</emphasis></entry>
-    <entry><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mrow><m:mi>a</m:mi><m:mspace width="0.1em"/></m:mrow><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:msqrt></m:mrow></m:math></entry>
-  </row>
-</tbody>
-</tgroup>
-</table>
+<list id="fs-id1169738104679" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Velocity</emphasis><newline/>
+<m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><emphasis effect="bold">Acceleration</emphasis><newline/>
+<m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r″</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><emphasis effect="bold">Speed</emphasis><newline/>
+<m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:msup><m:mi>r</m:mi><m:mo>′</m:mo></m:msup></m:mstyle><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item><emphasis effect="bold">Tangential component of acceleration</emphasis><newline/>
+<m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item><emphasis effect="bold">Normal component of acceleration</emphasis><newline/>
+<m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>·</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>N</m:mtext></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle></m:mrow><m:mo>‖</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>‖</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo>‖</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msubsup><m:mi>a</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>T</m:mtext></m:mstyle><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mrow></m:math></item>
+</list>
 </section>
 <section id="fs-id1169737894426" class="section-exercises">
 <exercise id="fs-id1169737894430">
@@ -909,7 +544,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 </media>
 </problem>
 <solution id="fs-id1169737168395">
-<para id="fs-id1169737168397"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>sin</m:mi><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>−</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mn>4</m:mn><m:mspace width="0.1em"/><m:msup><m:mtext>sin</m:mtext><m:mn>2</m:mn></m:msup><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mtext>cos</m:mtext><m:mn>2</m:mn></m:msup><m:mi>t</m:mi></m:msqrt></m:math></para>
+<para id="fs-id1169737168397"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>v</m:mi></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>sin</m:mi><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mi>cos</m:mi><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>k</m:mi></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>−</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>k</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:mspace width="0.1em"/><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>9</m:mn><m:msup><m:mspace width="0.1em"/><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:math></para>
 </solution>
 </exercise>
 <para id="fs-id1169737212054">Find the velocity, acceleration, and speed of a particle with the given position function.</para>
@@ -920,19 +555,18 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 </exercise>
 <exercise id="fs-id1169737253230">
 <problem id="fs-id1169737253232">
-<para id="fs-id1169737253234"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math>. The graph is shown here:</para>
-
-<media id="fs-id1169737785693" alt="This figure is a curve in 3 dimensions. It is inside of a box. The box represents an octant. The curve begins in the bottom of the box, from the lower left, and bends through the box to the other side, in the lower right.">
-  <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_13_04_207.jpg"/>
-  </media>
+<para id="fs-id1169737253234"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mo>,</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1169737253282">
-<para id="fs-id1169737253284"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> speed = <m:math><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>‖</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:math></para>
+<para id="fs-id1169737253284"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>−</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>t</m:mi></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>t</m:mi></m:mrow></m:msup><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>‖</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>‖</m:mo></m:mrow><m:msqrt><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−2</m:mn><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1169737838053">
 <problem id="fs-id1169737838056">
-<para id="fs-id1169737838058"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>,</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1169737838058"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>,</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>t</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph is shown here:</para>
+<media id="fs-id1169737785693" alt="This figure is a curve in 3 dimensions. It is inside of a box. The box represents an octant. The curve begins in the bottom of the box, from the lower left, and bends through the box to the other side, in the lower right.">
+<image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_13_04_207.jpg"/>
+</media>
 </problem>
 </exercise>
 <exercise id="fs-id1169738216190">
@@ -948,7 +582,8 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 <para id="fs-id1169738253258">Let <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.1em"/><m:mtext>cosh</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mi>r</m:mi><m:mspace width="0.1em"/><m:mtext>sinh</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Find the velocity and acceleration vectors and show that the acceleration is proportional to <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 </exercise>
-<para id="fs-id1169737512566">Consider the motion of a point on the circumference of a rolling circle. As the circle rolls, it generates the cycloid <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>ω</m:mi></m:math> is the angular velocity of the circle:</para><media id="fs-id1169737931348" alt="This figure is a curve in the first octant. It is semicircles connected representing humps. It begins at the origin and touches the x axis at 4pi, and 8pi.">
+<para id="fs-id1169737512566">Consider the motion of a point on the circumference of a rolling circle. As the circle rolls, it generates the cycloid <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>ω</m:mi><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>ω</m:mi></m:math> is the angular velocity of the circle and b is the radius of the circle:</para>
+<media id="fs-id1169737931348" alt="This figure is a curve in the first octant. It is semicircles connected representing humps. It begins at the origin and touches the x axis at 4pi, and 8pi.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_13_04_201.jpg"/>
 </media>
 <exercise id="fs-id1169737931360">
@@ -1127,7 +762,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 <para id="fs-id1169737359591"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1169737184191">
-<para id="fs-id1169737184193"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:msub><m:mi>a</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn></m:math></para>
+<para id="fs-id1169737184193"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1169737184235">
@@ -1153,7 +788,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 <para id="fs-id1169737231334"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>i</m:mtext></m:mstyle><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.1em"/><m:mstyle mathvariant="bold" mathsize="normal"><m:mtext>j</m:mtext></m:mstyle></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1169737231410">
-<para id="fs-id1169737231412"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+<para id="fs-id1169737231412"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mi>π</m:mi></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1169737168579">
@@ -1311,7 +946,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 <para id="fs-id1169737162610">Find the length for the following curves.</para>
 <exercise id="fs-id1169737162613">
 <problem id="fs-id1169737162615">
-<para id="fs-id1169737162618"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>3</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:mn>4</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mn>4</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> for <m:math><m:mrow><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+<para id="fs-id1169737162618"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mn>4</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mn>4</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> for <m:math><m:mrow><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1169737162712">
@@ -1373,7 +1008,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 <para id="fs-id1169737207567">The position of a particle is given by <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>t</m:mi></m:math> is measured in seconds and <m:math><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle></m:math> is measured in meters. Find the velocity, acceleration, and speed functions. What are the position, velocity, speed, and acceleration of the particle at 1 sec?</para>
 </problem>
 <solution id="fs-id1169737486955">
-<para id="fs-id1169737486957"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>t</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>π</m:mi><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math> m/sec; at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>–π</m:mi></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec<sup>2</sup>, and <m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:msqrt></m:mrow></m:math> m/sec</para>
+<para id="fs-id1169737486957"><m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>t</m:mi></m:mfrac><m:mo>,</m:mo><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>,</m:mo><m:mtext>−</m:mtext><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>〉</m:mo></m:mrow><m:msup><m:mrow><m:mspace width="0.2em"/><m:mtext>m/sec</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt></m:mrow></m:math> m/sec; at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>r</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>v</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec, <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>〈</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>〉</m:mo></m:mrow></m:mrow></m:math> m/sec<sup>2</sup>, and <m:math><m:mrow><m:mtext>speed</m:mtext><m:mo>=</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow></m:math> m/sec</para>
 </solution>
 </exercise>
 <para id="fs-id1169737405527">The following problems consider launching a cannonball out of a cannon. The cannonball is shot out of the cannon with an angle <m:math><m:mi>θ</m:mi></m:math> and initial velocity <m:math><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math> The only force acting on the cannonball is gravity, so we begin with a constant acceleration <m:math><m:mrow><m:mstyle mathvariant="bold"><m:mtext>a</m:mtext></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>g</m:mi><m:mspace width="0.1em"/><m:mstyle mathvariant="bold"><m:mtext>j</m:mtext></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></para>
@@ -1396,7 +1031,7 @@ The Bristol Motor Speedway is a NASCAR short track in Bristol, Tennessee. The tr
 </problem>
 </exercise>
 </section>
- </content>
+</content>
 <glossary>
 <definition id="fs-id1169738243333">
 <term>acceleration vector</term>
