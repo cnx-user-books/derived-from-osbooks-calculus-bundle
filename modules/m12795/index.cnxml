@@ -529,8 +529,7 @@
      </m:mrow>
    </m:math>
    and now we can integrate both sides
-   <m:math mode="display" display="block">
-   </m:math> Recall
+    Recall
    <m:math mode="display" display="block">
      <m:mrow>
        <m:mrow>
@@ -687,8 +686,7 @@
        </m:mrow>
      </m:mrow>
    </m:math>
-   Thus <m:math mode="display" display="block">
-   </m:math> This is
+   Thus  This is
    equal to zero at the limits
    <m:math display="inline">
      <m:mrow>
@@ -795,11 +793,9 @@
        </m:mrow>
      </m:mrow>
    </m:math>
-   So you get <m:math mode="display" display="block">
-   </m:math> After all
+   So you get  After all
    that we should see that for
-   <m:math mode="display" display="block">
-   </m:math> each term in the sum
+    each term in the sum
    is zero, except the case where
    <m:math display="inline">
      <m:mrow>
