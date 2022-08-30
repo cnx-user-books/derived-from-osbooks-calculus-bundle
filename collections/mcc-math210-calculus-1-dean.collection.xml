@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Judy Dean">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col25752</md:content-id>
     <md:title>MCC Math210 Calculus 1 Dean</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike License</md:license>
     <md:uuid>da414081-2def-4c98-878c-1ca4603a42d8</md:uuid>
-<md:slug>mcc-math210-calculus-1-dean</md:slug>
-</metadata>
+    <md:slug>mcc-math210-calculus-1-dean</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m60027"/>
     <col:subcollection>
