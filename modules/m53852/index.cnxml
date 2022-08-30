@@ -961,7 +961,7 @@ a line</para>
 </exercise>
 <exercise id="fs-id1167794188292">
 <problem id="fs-id1167794188294">
-<para id="fs-id1167794188297"><emphasis effect="bold">[T]</emphasis> Use the results of the preceding two problems to explore the graphs of <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.001</m:mn><m:mi>θ</m:mi></m:mrow></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.0001</m:mn><m:mi>θ</m:mi></m:mrow></m:msup></m:mrow></m:math> for <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>θ</m:mi><m:mo>|</m:mo></m:mrow><m:mo>></m:mo><m:mn>100</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167794188297"><emphasis effect="bold">[T]</emphasis> Use the results of the preceding two problems to explore the graphs of <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.001</m:mn><m:mi>θ</m:mi></m:mrow></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mn>−0.0001</m:mn><m:mi>θ</m:mi></m:mrow></m:msup></m:mrow></m:math> for <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>θ</m:mi><m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>100</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1167794188354">
 <para id="fs-id1167794188356">Answers vary. One possibility is the spiral lines become closer together and the total number of spirals increases.</para>

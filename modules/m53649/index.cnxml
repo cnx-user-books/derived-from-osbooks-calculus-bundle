@@ -696,7 +696,7 @@
 </exercise>
 <exercise id="fs-id1167794212245">
 <problem id="fs-id1167794212248">
-<para id="fs-id1167794212250">Find the generalized center of mass in the sliver between <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mi>a</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mi>b</m:mi></m:msup></m:mrow></m:math> with <m:math><m:mrow><m:mi>a</m:mi><m:mo>></m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> Then, use the Pappus theorem to find the volume of the solid generated when revolving around the <emphasis effect="italics">y</emphasis>-axis.</para>
+<para id="fs-id1167794212250">Find the generalized center of mass in the sliver between <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mi>a</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mi>b</m:mi></m:msup></m:mrow></m:math> with <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> Then, use the Pappus theorem to find the volume of the solid generated when revolving around the <emphasis effect="italics">y</emphasis>-axis.</para>
 </problem>
 </exercise>
 <exercise id="fs-id1167793604172">
@@ -714,7 +714,7 @@
 </exercise>
 <exercise id="fs-id1167793590340">
 <problem id="fs-id1167793590342">
-<para id="fs-id1167793590344">Use the theorem of Pappus to find the volume of a torus (pictured here). Assume that a disk of radius <m:math><m:mi>a</m:mi></m:math> is positioned with the left end of the circle at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>b</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and is rotated around the <emphasis effect="italics">y</emphasis>-axis.</para>
+<para id="fs-id1167793590344">Use the theorem of Pappus to find the volume of a torus (pictured here). Assume that a disk of radius <m:math><m:mi>a</m:mi></m:math> is positioned with the left end of the circle at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> and is rotated around the <emphasis effect="italics">y</emphasis>-axis.</para>
 <media id="fs-id1167793705281" alt="This figure is a torus. It has inner radius of b. Inside of the torus is a cross section that is a circle. The circle has radius a.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_06_06_201.jpg"/>
 </media>

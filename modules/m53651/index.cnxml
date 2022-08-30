@@ -23,7 +23,7 @@
 <title>Rule: Exponential Growth Model</title>
 <para id="fs-id1167793936451">Systems that exhibit <term id="term-00001">exponential growth</term> increase according to the mathematical model</para>
 <equation id="fs-id1167793951818" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1167793244434">where <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> represents the initial state of the system and <m:math><m:mrow><m:mi>k</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math> is a constant, called the <emphasis effect="italics">growth constant</emphasis>.</para>
+<para id="fs-id1167793244434">where <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> represents the initial state of the system and <m:math><m:mrow><m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> is a constant, called the <emphasis effect="italics">growth constant</emphasis>.</para>
 </note>
 <para id="fs-id1167793392254"><term class="no-emphasis" id="term-00002">Population growth</term> is a common example of exponential growth. Consider a population of bacteria, for instance. It seems plausible that the rate of population growth would be proportional to the size of the population. After all, the more bacteria there are to reproduce, the faster the population grows. <link target-id="CNX_Calc_Figure_06_08_001"/> and <link target-id="fs-id1167793939650"/> represent the growth of a population of bacteria with an initial population of <m:math><m:mrow><m:mn>200</m:mn></m:mrow></m:math> bacteria and a growth constant of <m:math><m:mrow><m:mn>0.02</m:mn><m:mo>.</m:mo></m:mrow></m:math> Notice that after only <m:math><m:mn>2</m:mn></m:math> hours <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>120</m:mn></m:mrow></m:math> minutes), the population is <m:math><m:mrow><m:mn>10</m:mn></m:mrow></m:math> times its original size!</para>
 <figure id="CNX_Calc_Figure_06_08_001">
@@ -213,7 +213,7 @@
 <title>Rule: Exponential Decay Model</title>
 <para id="fs-id1167793245247">Systems that exhibit <term id="term-00006">exponential decay</term> behave according to the model</para>
 <equation id="fs-id1167793619906" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>−</m:mtext><m:mi>k</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation>
-<para id="fs-id1167793931992">where <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> represents the initial state of the system and <m:math><m:mrow><m:mi>k</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math> is a constant, called the <emphasis effect="italics">decay constant</emphasis>.</para>
+<para id="fs-id1167793931992">where <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> represents the initial state of the system and <m:math><m:mrow><m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> is a constant, called the <emphasis effect="italics">decay constant</emphasis>.</para>
 </note>
 <para id="fs-id1167793770726">The following figure shows a graph of a representative exponential decay function.</para>
 <figure id="CNX_Calc_Figure_06_08_002">

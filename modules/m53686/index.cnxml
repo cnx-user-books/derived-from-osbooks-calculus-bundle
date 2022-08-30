@@ -722,7 +722,7 @@ Integration in the time domain simplifies to division by <emphasis effect="itali
 <para id="fs-id1165042508350"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1165042508372">
-<para id="fs-id1165042508374"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>s</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1165042508374"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>s</m:mi></m:mfrac><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1165042508394">
@@ -735,7 +735,7 @@ Integration in the time domain simplifies to division by <emphasis effect="itali
 <para id="fs-id1165042778780"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1165042778815">
-<para id="fs-id1165042778817"><m:math><m:mrow><m:mfrac><m:mi>s</m:mi><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<para id="fs-id1165042778817"><m:math><m:mrow><m:mfrac><m:mi>s</m:mi><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
 </solution>
 </exercise>
 <exercise id="fs-id1165042778846">

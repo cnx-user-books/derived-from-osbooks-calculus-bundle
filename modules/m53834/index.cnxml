@@ -671,7 +671,7 @@ Asymptotes are <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mro
 </exercise>
 <exercise id="fs-id1169293398516">
 <problem id="fs-id1169293398518">
-<para id="fs-id1169293398520"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>></m:mo><m:mn>−1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1169293398520"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>t</m:mi><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo><m:mi>t</m:mi><m:mo>&gt;</m:mo><m:mn>−1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
 </problem>
 </exercise>
 <exercise id="fs-id1169293315628">

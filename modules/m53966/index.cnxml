@@ -804,7 +804,7 @@
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_15_03_211.jpg"/>
 </media></item>
 <item>A spherical segment is the solid defined by intersecting a sphere with two parallel planes. If the distance between the planes is <m:math><m:mrow><m:mi>h</m:mi><m:mo>,</m:mo></m:mrow></m:math> show that the volume of the spherical segment in the figure below is <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>π</m:mi><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
-<media id="fs-id1167793495515" alt="A sphere has two parallel circles inside of it h units apart. The upper circle has radius b, and the lower circle has radius a. Note that a > b.">
+<media id="fs-id1167793495515" alt="A sphere has two parallel circles inside of it h units apart. The upper circle has radius b, and the lower circle has radius a. Note that a &gt; b.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_15_03_212.jpg"/>
 </media>
 </item></list>

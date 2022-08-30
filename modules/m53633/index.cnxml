@@ -322,7 +322,7 @@
 </exercise>
 <exercise id="fs-id1170572628420">
 <problem id="fs-id1170572628422">
-<para id="fs-id1170572628424">The area of a regular pentagon with side length <m:math><m:mrow><m:mi>a</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:mrow></m:math> is <emphasis effect="italics">pa</emphasis><sup>2</sup> with <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msqrt><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> The Pentagon in Washington, DC, has inner sides of length 360 ft and outer sides of length 920 ft. Write an integral to express the area of the roof of the Pentagon according to these dimensions and evaluate this area.</para>
+<para id="fs-id1170572628424">The area of a regular pentagon with side length <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> is <emphasis effect="italics">pa</emphasis><sup>2</sup> with <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msqrt><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> The Pentagon in Washington, DC, has inner sides of length 360 ft and outer sides of length 920 ft. Write an integral to express the area of the roof of the Pentagon according to these dimensions and evaluate this area.</para>
 </problem>
 </exercise>
 <exercise id="fs-id1170572543692">
@@ -382,7 +382,7 @@
 <para id="fs-id1170572373393">Suppose that a particle moves along a straight line with velocity defined by <m:math><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>t</m:mi><m:mo>≤</m:mo><m:mn>6</m:mn></m:mrow></m:math> (in meters per second). Find the displacement at time <emphasis effect="italics">t</emphasis> and the total distance traveled up to <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1170572373458">
-<para id="fs-id1170572373461"><m:math><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For <m:math><m:mrow><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For <m:math><m:mrow><m:mi>t</m:mi><m:mo>></m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>3</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:msubsup><m:mo>|</m:mo><m:mrow><m:mn>3</m:mn></m:mrow><m:mi>6</m:mi></m:msubsup></m:mrow><m:mo>.</m:mo></m:mrow></m:math>
+<para id="fs-id1170572373461"><m:math><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>s</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For <m:math><m:mrow><m:mi>t</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>0</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For <m:math><m:mrow><m:mi>t</m:mi><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mrow><m:msubsup><m:mo>∫</m:mo><m:mn>3</m:mn><m:mi>t</m:mi></m:msubsup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mrow></m:mstyle><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:msubsup><m:mo>|</m:mo><m:mrow><m:mn>3</m:mn></m:mrow><m:mi>6</m:mi></m:msubsup></m:mrow><m:mo>.</m:mo></m:mrow></m:math>
 
 
 The total distance is <m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></para></solution>
@@ -1001,7 +1001,7 @@ The total distance is <m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:
 <exercise id="fs-id1170572412290">
 <problem id="fs-id1170572412292">
 <para id="fs-id1170572412294"><emphasis effect="bold">[T]</emphasis> The following table lists the 2013 schedule of <term class="no-emphasis" id="term-00010">federal income tax</term> versus taxable income.</para>
-<table id="fs-id1170572412313" summary="A table with three columns and eight rows. The first column has the label “Taxable Income Range” and the values $0–$8925, $8925–$36,250, $36,250–$87,850, $87,850–$183,250, $183,250–$398,350, $398,350–$400,000, and > $400,000. The second column has the label “The Tax Is…” and the values 10%, $892.50 + 15%, $4,991.25 + 25%, $1,891.25 + 28%, $44,603.25 + 33%, $115,586.25 + 35%, and $116,163.75 + 39.6%. The third column has the label “…Of the Amount Over” and the values $0, $8925, $36,250, $87,850, $183,250, $398,350, and $400,000.">
+<table id="fs-id1170572412313" summary="A table with three columns and eight rows. The first column has the label “Taxable Income Range” and the values $0–$8925, $8925–$36,250, $36,250–$87,850, $87,850–$183,250, $183,250–$398,350, $398,350–$400,000, and &gt; $400,000. The second column has the label “The Tax Is…” and the values 10%, $892.50 + 15%, $4,991.25 + 25%, $1,891.25 + 28%, $44,603.25 + 33%, $115,586.25 + 35%, and $116,163.75 + 39.6%. The third column has the label “…Of the Amount Over” and the values $0, $8925, $36,250, $87,850, $183,250, $398,350, and $400,000.">
 <title>Federal Income Tax Versus Taxable Income</title>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -1046,7 +1046,7 @@ The total distance is <m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:
 <entry align="left">$398,350</entry>
 </row>
 <row valign="top">
-<entry align="left">> $400,000</entry>
+<entry align="left">&gt; $400,000</entry>
 <entry align="left">$116,163.75 + 39.6%</entry>
 <entry align="left">$400,000</entry>
 </row>
@@ -1060,7 +1060,7 @@ The total distance is <m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:
 <exercise id="fs-id1170572627149">
 <problem id="fs-id1170572627151">
 <para id="fs-id1170572627153"><emphasis effect="bold">[T]</emphasis> The following table provides hypothetical data regarding the level of service for a certain highway.</para>
-<table id="fs-id1170572627169" summary="A table with three columns and seven rows. The first column has the label “Highway Speed Range (mph)” and the values >60, 60-57, 57-54, 54-46, 46-30, and &lt;30. The second column has the label “Vehicles per Hour per Lane” and the values &lt;600, 600-1000, 1000-1500, 1500-1900, 1900-2100, and unstable. The third column has the label “Density Range (vehicles / mi)” and values &lt;10, 10-20, 20-30, 30-45, 45-70, and 70-200.">
+<table id="fs-id1170572627169" summary="A table with three columns and seven rows. The first column has the label “Highway Speed Range (mph)” and the values &gt;60, 60-57, 57-54, 54-46, 46-30, and &lt;30. The second column has the label “Vehicles per Hour per Lane” and the values &lt;600, 600-1000, 1000-1500, 1500-1900, 1900-2100, and unstable. The third column has the label “Density Range (vehicles / mi)” and values &lt;10, 10-20, 20-30, 30-45, 45-70, and 70-200.">
 <label/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
@@ -1075,7 +1075,7 @@ The total distance is <m:math><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">(</m:
 </thead>
 <tbody>
 <row valign="top">
-<entry align="left">> 60</entry>
+<entry align="left">&gt; 60</entry>
 <entry align="left">&lt; 600</entry>
 <entry align="left">&lt; 10</entry>
 </row>
