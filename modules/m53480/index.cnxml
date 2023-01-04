@@ -245,7 +245,7 @@ The domain and range of <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1
 <caption>The graph of each of the inverse trigonometric functions is a reflection about the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> of the corresponding restricted trigonometric function.</caption>
 </figure>
 <note id="fs-id1170572366188" class="media-2">
-<para id="fs-id1170572366192">Go to the <link url="http://www.openstaxcollege.org/l/20_inversefun">following site</link> for more comparisons of functions and their inverses.</para>
+<para id="fs-id1170572366192">Go to the <link url="http://www.openstax.org/l/20_inversefun">following site</link> for more comparisons of functions and their inverses.</para>
 </note>
 <para id="fs-id1170572366201">When evaluating an inverse trigonometric function, the output is an angle. For example, to evaluate <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we need to find an angle <m:math><m:mi>θ</m:mi></m:math> such that <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.1em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Clearly, many angles have this property. However, given the definition of <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> we need the angle <m:math><m:mi>θ</m:mi></m:math> that not only solves this equation, but also lies in the interval <m:math><m:mrow><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> We conclude that <m:math><m:mrow><m:msup><m:mrow><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>3</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
 <para id="fs-id1170572472189">We now consider a composition of a trigonometric function and its inverse. For example, consider the two expressions <m:math><m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow><m:mrow><m:mspace width="0.2em"/><m:mtext/><m:mspace width="0.2em"/><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mrow><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mtext>sin</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> For the first one, we simplify as follows:</para>
@@ -727,8 +727,8 @@ Using a graphing calculator or other graphing device, estimate the <m:math><m:mi
 <exercise id="fs-id1170572542921">
 <problem id="fs-id1170572542923">
 <para id="fs-id1170572542925"><emphasis effect="bold">[T]</emphasis> A race car is accelerating at a velocity given by</para>
-<para id="fs-id1170572542932"><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>54</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
-<para id="fs-id1170572542966">where <emphasis effect="italics">v</emphasis> is the velocity (in feet per second) at time <emphasis effect="italics">t</emphasis>.</para>
+<para id="fs-id1170572542932"><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>54</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+where <emphasis effect="italics">v</emphasis> is the velocity (in feet per second) at time <emphasis effect="italics">t</emphasis>.</para>
 <list id="fs-id1170572542980" list-type="enumerated" number-style="lower-alpha">
 <item>Find the velocity of the car at 10 sec.</item>
 <item>Find the inverse function.</item>
@@ -743,12 +743,10 @@ Using a graphing calculator or other graphing device, estimate the <m:math><m:mi
 <media id="fs-id1170572455137" alt="An image of a birds eye view of an airplane. Directly in front of the airplane is a sideways “V” shape, with the airplane flying directly into the opening of the “V” shape. The “V” shape is labeled “mach wave”. There are two arrows with labels. The first arrow points from the nose of the airplane to the corner of the “V” shape. This arrow has the label “velocity = v”. The second arrow points diagonally from the nose of the airplane to the edge of the upper portion of the “V” shape. This arrow has the label “speed of sound = a”. Between these two arrows is an angle labeled “Mach angle”. There is also text in the image that reads “mach = M &gt; 1.0”.">
 <image mime-type="image/jpeg" src="../../media/CNX_Calc_Figure_01_04_215.jpg"/>
 </media>
-<list id="fs-id1170572455148" list-type="enumerated" number-style="lower-alpha">
-<item><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn></m:mrow></m:math></item>
-<item><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>2.8</m:mn></m:mrow></m:math></item>
-<item><m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>4.3</m:mn></m:mrow></m:math></item>
-</list>
-</problem>
+<list id="fs-id1170572455148" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>1.4</m:mn></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>2.8</m:mn></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>4.3</m:mn></m:mrow></m:math></item>
+</list></problem>
 <solution id="fs-id1170572455188">
 <para id="fs-id1170572455191">a. <m:math><m:mrow><m:mo>~</m:mo><m:mn>92</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> b. <m:math><m:mrow><m:mo>~</m:mo><m:mn>42</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> c. <m:math><m:mrow><m:mo>~</m:mo><m:mn>27</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
 </solution>
@@ -765,9 +763,9 @@ Using a graphing calculator or other graphing device, estimate the <m:math><m:mi
 </exercise>
 <exercise id="fs-id1170572551494">
 <problem id="fs-id1170572551497">
-<para id="fs-id1170572551499"><emphasis effect="bold">[T]</emphasis> The temperature (in degrees Celsius) of a city in the northern United States can be modeled by the function</para>
-<para id="fs-id1170572551507"><m:math><m:mrow><m:mi>T</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mi>π</m:mi><m:mn>6</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></para>
-<para id="fs-id1170572551558">where <m:math><m:mi>x</m:mi></m:math> is time in months and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn></m:mrow></m:math> corresponds to January 1. Determine the month and day when the temperature is <m:math><m:mrow><m:mn>21</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1170572551499"><emphasis effect="bold">[T]</emphasis> The average temperature (in degrees Celsius) of a city in the northern United States can be modeled by the function</para>
+<para id="fs-id1170572551507"><m:math><m:mrow><m:mi>T</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mi>π</m:mi><m:mn>6</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math>
+where <m:math><m:mi>x</m:mi></m:math> is time in months and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn></m:mrow></m:math> corresponds to January 1. Determine the month and day when the average temperature is <m:math><m:mrow><m:mn>21</m:mn><m:mtext>°</m:mtext><m:mtext>C</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
 </problem>
 <solution id="fs-id1170572545092">
 <para id="fs-id1170572545094"><m:math><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>6.69</m:mn><m:mo>,</m:mo><m:mn>8.51</m:mn><m:mo>;</m:mo></m:mrow></m:math> so, the temperature occurs on June 21 and August 15</para>
@@ -776,15 +774,15 @@ Using a graphing calculator or other graphing device, estimate the <m:math><m:mi
 <exercise id="fs-id1170572545115">
 <problem id="fs-id1170572545117">
 <para id="fs-id1170572545119"><emphasis effect="bold">[T]</emphasis> The depth (in feet) of water at a dock changes with the rise and fall of tides. It is modeled by the function</para>
-<para id="fs-id1170572545127"><m:math><m:mrow><m:mi>D</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>π</m:mi><m:mn>6</m:mn></m:mfrac><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>π</m:mi></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
-<para id="fs-id1170572545179">where <m:math><m:mi>t</m:mi></m:math> is the number of hours after midnight. Determine the first time after midnight when the depth is 11.75 ft.</para>
+<para id="fs-id1170572545127"><m:math><m:mrow><m:mi>D</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.1em"/><m:mtext>sin</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>π</m:mi><m:mn>6</m:mn></m:mfrac><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>π</m:mi></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math>
+where <m:math><m:mi>t</m:mi></m:math> is the number of hours after midnight. Determine the first time after midnight when the depth is 11.75 ft.</para>
 </problem>
 </exercise>
 <exercise id="fs-id1170572545202">
 <problem id="fs-id1170572545204">
 <para id="fs-id1170572545207"><emphasis effect="bold">[T]</emphasis> An object moving in simple harmonic motion is modeled by the function</para>
-<para id="fs-id1170572545214"><m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math></para>
-<para id="fs-id1170572545252">where <m:math><m:mi>s</m:mi></m:math> is measured in inches and <m:math><m:mi>t</m:mi></m:math> is measured in seconds. Determine the first time when the distance moved is 4.5 in.</para></problem>
+<para id="fs-id1170572545214"><m:math><m:mrow><m:mi>s</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn><m:mspace width="0.1em"/><m:mtext>cos</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>π</m:mi><m:mi>t</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math>
+where <m:math><m:mi>s</m:mi></m:math> is measured in inches and <m:math><m:mi>t</m:mi></m:math> is measured in seconds. Determine the first time when the distance moved is 4.5 in.</para></problem>
 <solution id="fs-id1170572545265">
 <para id="fs-id1170572545267"><m:math><m:mrow><m:mo>~</m:mo><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mtext>sec</m:mtext></m:mrow></m:math></para>
 </solution>
@@ -792,8 +790,8 @@ Using a graphing calculator or other graphing device, estimate the <m:math><m:mi
 <exercise id="fs-id1170572169073">
 <problem id="fs-id1170572169076">
 <para id="fs-id1170572169078"><emphasis effect="bold">[T]</emphasis> A local art gallery has a portrait 3 ft in height that is hung 2.5 ft above the eye level of an average person. The viewing angle <m:math><m:mi>θ</m:mi></m:math> can be modeled by the function</para>
-<para id="fs-id1170572169091"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>5.5</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>2.5</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></para>
-<para id="fs-id1170572169132">where <m:math><m:mi>x</m:mi></m:math> is the distance (in feet) from the portrait. Find the viewing angle when a person is 4 ft from the portrait.</para>
+<para id="fs-id1170572169091"><m:math><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>5.5</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:msup><m:mrow><m:mtext>tan</m:mtext></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mfrac><m:mrow><m:mn>2.5</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math>
+where <m:math><m:mi>x</m:mi></m:math> is the distance (in feet) from the portrait. Find the viewing angle when a person is 4 ft from the portrait.</para>
 </problem>
 </exercise>
 <exercise id="fs-id1170572169169">

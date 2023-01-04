@@ -7,7 +7,7 @@
   <md:uuid>11340fed-e663-401b-a4c8-6956078f569c</md:uuid>
 </metadata>
 
-<content>
+<content class="appendix">
 <section id="fs-id1165042655648">
 <title>Basic Integrals</title>
 <para id="fs-id1165043422507">1. <m:math><m:mrow><m:mstyle displaystyle="true"><m:mrow><m:mo stretchy="false">∫</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mi>n</m:mi></m:msup><m:mspace width="0.2em"/><m:mi>d</m:mi><m:mi>u</m:mi><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>C</m:mi><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>1</m:mn></m:mrow></m:math></para>

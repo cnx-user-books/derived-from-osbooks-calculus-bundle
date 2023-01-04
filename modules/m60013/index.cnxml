@@ -1,0 +1,119 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="preface">
+
+<title>Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60013</md:content-id>
+  <md:title>Preface</md:title>
+  <md:abstract/>
+  <md:uuid>fea99d14-9c1f-46b3-a571-554afae6998f</md:uuid>
+</metadata>
+
+<content class="preface">
+  <para id="fs-idm1530827520">Welcome to <emphasis effect="italics">Calculus</emphasis>, an OpenStax resource. This textbook has been created with several goals in mind: accessibility, customization, and student engagement—all while encouraging students toward high levels of academic scholarship. Instructors and students alike will find that this textbook offers a strong foundation in calculus in an accessible format.</para><section id="eip-43"><title>About OpenStax</title><para id="eip-320">
+OpenStax is a non-profit organization committed to improving student access to quality learning materials. Our free textbooks go through a rigorous editorial publishing process. Our texts are developed and peer-reviewed by educators to ensure they are readable, accurate, and meet the scope and sequence requirements of today’s college courses. Unlike traditional textbooks, OpenStax resources live online and are owned by the community of educators using them. Through our partnerships with companies and foundations committed to reducing costs for students, OpenStax is working to improve access to higher education for all. OpenStax is an initiative of Rice University and is made possible through the generous support of several philanthropic foundations. Since our launch in 2012 our texts have been used by millions of learners online and thousands of institutions worldwide.
+</para></section><section id="eip-490"><title>About OpenStax's Resources</title><para id="eip-90">
+OpenStax resources provide quality academic instruction. Three key features set our materials apart from others: they can be customized by instructors for each class, they are a "living" resource that grows online through contributions from educators, and they are available free or for minimal cost.
+</para><section id="eip-606"><title>Customization</title><para id="eip-463">
+OpenStax learning resources are designed to be customized for each course. Our textbooks provide a solid foundation on which instructors can build, and our resources are conceived and written with flexibility in mind. Instructors can select the sections most relevant to their curricula and create a textbook that speaks directly to the needs of their classes and student body. Teachers are encouraged to expand on existing examples by adding unique context via geographically localized applications and topical connections.
+</para><para id="eip-626"><emphasis effect="italics">Calculus</emphasis> can be easily customized using our online platform (http://cnx.org/content/col11963/). Simply select the content most relevant to your current semester and create a textbook that speaks directly to the needs of your class. <emphasis effect="italics">Calculus</emphasis> is organized as a collection of sections that can be rearranged, modified, and enhanced through localized examples or to incorporate a specific theme of your course. This customization feature will ensure that your textbook truly reflects the goals of your course. </para></section><section id="eip-676"><title>Curation</title><para id="eip-459"><emphasis effect="italics">Calculus</emphasis> is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA) license, which means that you can distribute, remix, and build upon the content, as long as you provide attribution to OpenStax and its content contributors, do not use the content for commercial purposes, and distribute the content under the same CC-BY-NC-SA license.
+</para></section><section id="eip-86"><title>Cost</title><para id="eip-643">
+Our textbooks are available for free online, and in low-cost print and e-book editions.
+</para></section></section><section id="eip-717"><title>About <emphasis effect="italics">Calculus</emphasis></title><para id="eip-35">
+<emphasis effect="italics">Calculus</emphasis> is designed for the two- or three-semester calculus course. For many students, this course provides the foundation to a career in mathematics, science, or engineering. As such, this textbook provides an important opportunity for students to learn the core concepts of calculus and understand how those concepts apply to their lives and the world around them. The text has been developed to meet the scope and sequence of most general calculus courses. At the same time, the book includes several innovative features designed to enhance student learning. A strength of <emphasis effect="italics">Calculus</emphasis> is that instructors can customize the book, adapting it to the approach that works best in their classroom.
+</para><section id="eip-576"><title>Coverage and Scope</title><para id="eip-21">
+Our <emphasis effect="italics">Calculus</emphasis> textbook adheres to the scope and sequence of most general calculus courses nationwide. We have worked to make calculus interesting and accessible to students while maintaining the mathematical rigor inherent in the subject. With this objective in mind, the content of this textbook has been developed and arranged to provide a logical progression from fundamental to more advanced concepts, building upon what students have already learned and emphasizing connections between topics and between theory and applications. The goal of each section is to enable students not just to recognize concepts, but work with them in ways that will be useful in later courses and future careers. The organization and pedagogical features were developed and vetted with feedback from mathematics educators dedicated to the project.
+</para><list id="eip-939"><item>Chapter 1: Functions and Graphs</item>
+<item>Chapter 2: Limits</item>
+<item>Chapter 3: Derivatives</item>
+<item>Chapter 4: Applications of Derivatives</item>
+<item>Chapter 5: Integration</item>
+<item>Chapter 6: Applications of Integration</item>
+<item>Chapter 7: Techniques of Integration</item>
+<item>Chapter 8: Introduction to Differential Equations</item>
+<item>Chapter 9: Sequences and Series</item>
+<item>Chapter 10: Power Series</item>
+<item>Chapter 11: Parametric Equations and Polar Coordinates</item>
+<item>Chapter 12: Vectors in Space</item>
+<item>Chapter 13: Vector-Valued Functions</item>
+<item>Chapter 14: Differentiation of Functions of Several Variables</item>
+<item>Chapter 15: Multiple Integration</item>
+<item>Chapter 16: Vector Calculus</item>
+<item>Chapter 17: Second-Order Differential Equations</item>
+</list></section><section id="eip-56"><title>Pedagogical Foundation</title><para id="eip-377">
+Throughout <emphasis effect="italics">Calculus</emphasis> you will find examples and exercises that present classical ideas and techniques as well as modern applications and methods. Derivations and explanations are based on years of classroom experience on the part of long-time calculus professors, striving for a balance of clarity and rigor that has proven successful with their students. Motivational applications cover important topics in probability, biology, ecology, business, and economics, as well as areas of physics, chemistry, engineering, and computer science. <emphasis>Student Projects</emphasis> in each chapter give students opportunities to explore interesting sidelights in pure and applied mathematics, from showing that the number e is irrational, to exploring the graphs of cycloids and hypocycloids, to calculating the center of mass of the Grand Canyon Skywalk or the terminal speed of a skydiver. <emphasis>Chapter Opening Applications</emphasis> pose problems that are solved later in the chapter, using the ideas covered in that chapter. Problems include the hydraulic force against the Hoover Dam, the population of white-tailed deer in a forest, and the vector field of a hurricane. <emphasis>Definitions, Rules,</emphasis> and <emphasis>Theorems</emphasis> are highlighted throughout the text, including over 60 <emphasis>Proofs</emphasis> of theorems.
+</para></section><section id="eip-694"><title>Assessments That Reinforce Key Concepts </title><para id="eip-385">
+In-chapter <emphasis>Examples</emphasis> walk students through problems by posing a question, stepping out a solution, and then asking students to practice the skill with a “Checkpoint” question. The book also includes assessments at the end of each chapter so students can apply what they’ve learned through practice problems. Many exercises are marked with a <emphasis>[T]</emphasis> to indicate they are suitable for solution by technology, including calculators or Computer Algebra Systems (CAS). Answers for selected exercises are available in the <emphasis>Answer Key</emphasis> at the back of the book.
+</para></section><section id="eip-333"><title>Early or Late Transcendentals</title><para id="eip-963">
+<emphasis effect="italics">Calculus</emphasis> is designed to accommodate both Early and Late Transcendental approaches to calculus. Exponential and logarithmic functions are introduced informally in Chapter 1 and presented in more rigorous terms in Chapter 6. Differentiation and integration of these functions is covered in Chapters 3–5 for instructors who want to include them with other types of functions. These discussions, however, are in separate sections that can be skipped for instructors who prefer to wait until the integral definitions are given before teaching the calculus derivations of exponentials and logarithms. 
+</para></section><section id="eip-323"><title>Comprehensive Art Program</title><para id="eip-683">
+Our art program is designed to enhance students’ understanding of concepts through clear and effective illustrations, diagrams, and photographs. 
+</para>
+<media id="eip-id1168835982363" alt="..."><image mime-type="image/jpg" src="../../media/CNX_Calc_Figure_Preface_001_img.jpg"/></media>
+<media id="eip-id1165351943019" alt="..."><image mime-type="image/jpg" src="../../media/CNX_Calc_Figure_Preface_002_img.jpg"/></media></section><section id="eip-807"><title>Assessments That Reinforce Key Concepts </title><para id="eip-136">
+In-chapter <emphasis>Examples</emphasis> walk students through problems by posing a question, stepping out a solution, and then asking students to practice the skill with a “Check Your Learning” component. The book also includes assessments at the end of each chapter so students can apply what they’ve learned through practice problems. 
+</para></section></section><section id="eip-705"><title>Ancillaries</title><para id="eip-840">
+OpenStax projects offer an array of ancillaries for students and instructors. The following resources are available.
+</para><list id="eip-5"><item><emphasis effect="italics">PowerPoint Slides</emphasis></item>
+<item><emphasis effect="italics">Instructor’s Answers and Solutions Guide</emphasis></item>
+<item><emphasis effect="italics">Student Answers and Solutions Guide</emphasis></item>
+</list><para id="eip-379">Our resources are continually expanding, so please visit http://openstaxcollege.org to view an up-to-date list of the Learning Resources for this title and to find information on accessing these resources.</para></section><section id="eip-653"><title>About Our Team</title><section id="eip-957" class="sr-contrib-auth"><title>Senior Contributing Author</title><para id="eip-id1164685217378"><emphasis>Gilbert Strang, Massachusetts Institute of Technology</emphasis><newline/>
+Dr. Strang received his PhD from UCLA in 1959 and has been teaching mathematics at MIT ever since. His Calculus online textbook is one of eleven that he has published and is the basis from which our final product has been derived and updated for today’s student. Strang is a decorated mathematician and past Rhodes Scholar at Oxford University.
+</para><para id="eip-175"><emphasis>Edwin “Jed” Herman, University of Wisconsin-Stevens Point</emphasis><newline/>
+Dr. Herman earned a BS in Mathematics from Harvey Mudd College in 1985, an MA in Mathematics from UCLA in 1987, and a PhD in Mathematics from the University of Oregon in 1997. He is currently a Professor at the University of Wisconsin-Stevens Point. He has more than 20 years of experience teaching college mathematics, is a student research mentor, is experienced in course development/design, and is also an avid board game designer and player. 
+</para></section>
+
+<section id="eip-117" class="contrib-auth"><title>Contributoring Authors</title><para id="eip-id1164684611676">Catherine Abbott, Keuka College<newline/>
+Nicoleta Virginia Bila, Fayetteville State University<newline/>
+Sheri J. Boyd, Rollins College<newline/>
+Joyati Debnath, Winona State University<newline/>
+Valeree Falduto, Palm Beach State College<newline/>
+Joseph Lakey, New Mexico State University<newline/>
+Julie Levandosky, Framingham State University<newline/>
+David McCune, William Jewell College<newline/>
+Michelle Merriweather, Bronxville High School<newline/>
+Kirsten R. Messer, Colorado State University - Pueblo<newline/>
+Alfred K. Mulzet, Florida State College at Jacksonville<newline/>
+William Radulovich (retired), Florida State College at Jacksonville<newline/>
+Erica M. Rutter, Arizona State University<newline/>
+David Smith, University of the Virgin Islands<newline/>
+Elaine A. Terry, Saint Joseph’s University<newline/>
+David Torain, Hampton University<newline/></para></section>
+
+<section id="eip-268"><title>Reviewers</title>
+<para id="eip-id1164684519955">Marwan A. Abu-Sawwa, Florida State College at Jacksonville<newline/>
+Kenneth J. Bernard, Virginia State University<newline/>
+John Beyers, University of Maryland <newline/>
+Charles Buehrle, Franklin &amp; Marshall College<newline/>
+Matthew Cathey, Wofford College<newline/>
+Michael Cohen, Hofstra University<newline/>
+William DeSalazar, Broward County School System<newline/>
+Murray Eisenberg, University of Massachusetts Amherst<newline/>
+Kristyanna Erickson, Cecil College<newline/>
+Tiernan Fogarty, Oregon Institute of Technology<newline/>
+David French, Tidewater Community College<newline/>
+Marilyn Gloyer, Virginia Commonwealth University<newline/>
+Shawna Haider, Salt Lake Community College<newline/>
+Lance Hemlow, Raritan Valley Community College<newline/>
+Jerry Jared, The Blue Ridge School<newline/>
+Peter Jipsen, Chapman University<newline/>
+David Johnson, Lehigh University<newline/>
+M.R. Khadivi, Jackson State University<newline/>
+Robert J. Krueger, Concordia University<newline/>
+Tor A. Kwembe, Jackson State University<newline/>
+Jean-Marie Magnier, Springfield Technical Community College<newline/>
+Cheryl Chute Miller, SUNY Potsdam<newline/>
+Bagisa Mukherjee, Penn State University, Worthington Scranton Campus<newline/>
+Kasso Okoudjou, University of Maryland College Park<newline/>
+Peter Olszewski, Penn State Erie, The Behrend College<newline/>
+Steven Purtee, Valencia College<newline/>
+Alice Ramos, Bethel College<newline/>
+Doug Shaw, University of Northern Iowa<newline/>
+Hussain Elalaoui-Talibi, Tuskegee University<newline/>
+Jeffrey Taub, Maine Maritime Academy<newline/>
+William Thistleton, SUNY Polytechnic Institute<newline/>
+A. David Trubatch, Montclair State University<newline/>
+Carmen Wright, Jackson State University<newline/>
+Zhenbu Zhang, Jackson State University<newline/>
+</para></section></section></content>
+
+</document>

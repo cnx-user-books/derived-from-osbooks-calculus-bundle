@@ -1,0 +1,122 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="Stefanos Folias">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col30615</md:content-id>
+    <md:title>Permuted Calculus II</md:title>
+    <md:license url="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike License 4.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>d2940ce8-5990-45f4-b74c-ab203bd7533e</md:uuid>
+<md:slug>permuted-calculus-ii</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m60013"/>
+    <col:subcollection>
+      <md:title>Integration</md:title>
+      <col:content>
+        <col:module document="m53623"/>
+        <col:module document="m53624"/>
+        <col:module document="m53631"/>
+        <col:module document="m53685"/>
+        <col:module document="m53632"/>
+        <col:module document="m81726"/>
+        <col:module document="m53633"/>
+        <col:module document="m53650"/>
+        <col:module document="m53913"/>
+        <col:module document="m80648"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Integration Techniques</md:title>
+      <col:content>
+        <col:module document="m53634"/>
+        <col:module document="m53635"/>
+        <col:module document="m53686"/>
+        <col:module document="m53656"/>
+        <col:module document="m53681"/>
+        <col:module document="m82005"/>
+        <col:module document="m53653"/>
+        <col:module document="m53684"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Sequences and Series</md:title>
+      <col:content>
+        <col:module document="m53756"/>
+        <col:module document="m53758"/>
+        <col:module document="m53739"/>
+        <col:module document="m53754"/>
+        <col:module document="m53751"/>
+        <col:module document="m53743"/>
+        <col:module document="m53747"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Power Series</md:title>
+      <col:content>
+        <col:module document="m53760"/>
+        <col:module document="m53761"/>
+        <col:module document="m53762"/>
+        <col:module document="m53817"/>
+        <col:module document="m53769"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Applications of Integration</md:title>
+      <col:content>
+        <col:module document="m53638"/>
+        <col:module document="m53640"/>
+        <col:module document="m53642"/>
+        <col:module document="m53643"/>
+        <col:module document="m53648"/>
+        <col:module document="m53649"/>
+        <col:module document="m53697"/>
+        <col:module document="m53704"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Arc Length, Polar Curves and Trigonometric Integrals</md:title>
+      <col:content>
+        <col:module document="m81145"/>
+        <col:module document="m82007"/>
+        <col:module document="m82006"/>
+        <col:module document="m53657"/>
+        <col:module document="m53840"/>
+        <col:module document="m53659"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Functions of Two Variables</md:title>
+      <col:content>
+        <col:module document="m53929"/>
+        <col:module document="m81142"/>
+        <col:module document="m81143"/>
+        <col:module document="m81140"/>
+        <col:module document="m53949"/>
+        <col:module document="m53963"/>
+        <col:module document="m53966"/>
+        <col:module document="m81139"/>
+        <col:module document="m53971"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m54049"/>
+    <col:module document="m54050"/>
+    <col:module document="m54053"/>
+    <col:subcollection>
+      <md:title>REVIEW - Algebra, Trigonometry and Vectors</md:title>
+      <col:content>
+        <col:module document="m53472"/>
+        <col:module document="m53477"/>
+        <col:module document="m53478"/>
+        <col:module document="m53479"/>
+        <col:module document="m53480"/>
+        <col:module document="m53481"/>
+        <col:module document="m53852"/>
+        <col:module document="m53834"/>
+        <col:module document="m53874"/>
+        <col:module document="m53900"/>
+        <col:module document="m53897"/>
+        <col:module document="m53902"/>
+        <col:module document="m53903"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
